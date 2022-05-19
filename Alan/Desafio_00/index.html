@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIGHTFALL | ALPHA</title>
+    <link rel="shortcut icon" href="./assets/favicon.svg">
+    <link rel="stylesheet" href="./styles/style.css" >
+    <link rel="stylesheet" href="./styles/header.css" >
+    <link rel="stylesheet" href="./styles/main.css" >
+    <link rel="stylesheet" href="./styles/buttons.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="./scripts/script.js"></script>    
+</head>
+<body>
+    <div class="background-fall">
+        <header class="header-top">
+            <nav class="nav-bar">
+                <a href=""><span>TREVOUR</span></a>
+                <a href=""><span class="nav-options" id="first-left">SHOP</span></a>
+                <a href=""><span class="nav-options">ABOUT</span></a>
+                <a href=""><span class="nav-options">CONTACT</span></a>
+                </header>
+            </nav>
+        <section>
+            <div class="container">
+                <small>CANDLE</small></br>
+                <img id="logo-title" src="./assets/logo-night-fall.png" alt="Nome NightFall">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="content" id="box-tab">
+                    <table>
+                        <tr>
+                            <td class="tab-name">WEIGHT</td>
+                            <td class="tab-name">HEIGHT</td>
+                            <td class="tab-name">BURN TIME</td>
+                        </tr>
+                        <tr>
+                            <td class="tb-value">130g</td>
+                            <td class="tb-value">20cm</td>
+                            <td class="tb-value">145h</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="buttons">
+                    <button id="top" onclick="decrementDown()">-</button><button id="down" onclick="incrementTop()">+</button><input class="unids" type="number" min="1" id="qnt" value="1">
+                    <button id="submit-button">ADD TO CARD</button>
+                </div>
+        </section>
+        <div class="sing">
+            <a href=""><span>SING IN</span></a>
+        </div>
+    </div>
+    
+</body>
+</html>

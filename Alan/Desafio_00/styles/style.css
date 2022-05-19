@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to left, #05050A 0, #05050A 66%, #08050C 34%);   
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background-fall {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/image-fall.jpg);
+    background-position: 34vw 10vh;
+    background-size: 66vw 90vh;
+    background-repeat: no-repeat;
+}
+
+.sing {
+    position: absolute;
+    bottom: 0;
+    margin-left: 5vw;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+@media(max-width: 1000px) {
+    .sing {
+        display: none;
+    }    
+    .background-fall {        
+        background-size: 100vw;
+        background-position: 20vw 20vh;
+    }
+}
+
+@media(max-width: 500px) {
+    .background-fall {
+        background-position: 0vw 15vh;
+        background-size: 100vw;        
+        }
+    }
+    
