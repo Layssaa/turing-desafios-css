@@ -1,0 +1,26 @@
+@charset "UTF-8";
+#menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 5vh;
+  align-items: center;
+  font-size: 16px;
+}
+.a-menu {
+  text-decoration: none;
+  padding: 1.5vh;
+  color: white;
+  font-weight: bold;
+  transition: background .3s;
+}
+.a-menu:hover {
+  background-color: #006050;
+}
+/* - ESTILO PARA O RODAPÉ - */
+.space {
+  height: 1vh;
+  background-color:white;
+  width: 100vw;
+}
+
