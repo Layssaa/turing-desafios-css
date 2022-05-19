@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'kaushan';
+    src: url(./font/kaushanscript-regular-webfont.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "DINNeuzeitGroteskLTW01-Lt"; 
+    src: url("//db.onlinewebfonts.com/t/76e8830038ab225cdb852f902d207c72.eot"); 
+    src: url("//db.onlinewebfonts.com/t/76e8830038ab225cdb852f902d207c72.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/76e8830038ab225cdb852f902d207c72.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/76e8830038ab225cdb852f902d207c72.woff") format("woff"), url("//db.onlinewebfonts.com/t/76e8830038ab225cdb852f902d207c72.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/76e8830038ab225cdb852f902d207c72.svg#DINNeuzeitGroteskLTW01-Lt") format("svg"); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(249, 219, 121, 1);
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;   
+    text-align: center;
+}
+
+#ft {
+    background-image: url(https://static.wixstatic.com/media/baac51_e0fcec6e8aea4b6bb748dafd98b52c5b.png/v1/fill/w_294,h_577,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/baac51_e0fcec6e8aea4b6bb748dafd98b52c5b.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 300px;
+    position: absolute;
+    top: 23vh;
+    left: 38vw;
+}
+
+#address {
+    color: white;
+    letter-spacing: 0,05em;
+    font-size: 16px;
+    background-color: rgb(36, 35, 35, 1);
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    font-family: 'kaushan', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 9vh;
+    left: 44vw;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between; 
+    width: 20vw;
+    margin-left: 5vw;
+    position: fixed;
+    top: 11vh;
+    font-family: 'DINNeuzeitGroteskLTW01-Lt', sans-serif ;
+    letter-spacing: 0,05em ;
+    flex-wrap: wrap;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+}
+
+#sorvete {
+    position: absolute;
+    color: white;
+    top: 26vw;
+    left: 44vw;
+    font-size: 38px;
+    font-family: 'DINNeuzeitGroteskLTW01-Lt', sans-serif ;
+    letter-spacing: 0,05em ;
+}
+
+#artesanal {
+    position: absolute;
+    color: white;
+    top: 30vw;
+    left: 27vw;
+    font-size: 115px;
+    font-family: 'DINNeuzeitGroteskLTW01-Lt', sans-serif ;
+    letter-spacing: -0,08em ;
+}
+
+#button {
+    border: 2px white solid;
+    color: white;
+    font-family: 'DINNeuzeitGroteskLTW01-Lt', sans-serif ;
+    letter-spacing: 0,05em ;
+    font-weight: 900;
+    padding: 0px;
+    width: 126px;
+    height: 38px;
+    position: absolute;
+    top: 44vw;
+    left: 44vw;
+    background-color: transparent;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: rgb(47,46,46);
+    border-color: rgb(47,46,46) ;
+}
+
+#user {
+    display: flex;
+    margin-left: 75vw;
+    position: fixed;
+    top: 11vh;
+    align-items: center;
+}
+
+#user:hover {
+    cursor: pointer;
+}
+
+#login {
+    text-decoration: none;
+    color: black;
+    font-family: 'DINNeuzeitGroteskLTW01-Lt', sans-serif ;
+    margin-left: 7px;
+}
+
+#social {
+    display: flex;
+    margin-left: 87vw;
+    width: 8vw;
+    position: fixed;
+    top: 11vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#tt {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#fs {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#ins {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#tt:hover {
+    cursor: pointer;
+}
+
+#fs:hover {
+    cursor: pointer;
+}
+
+#ins:hover {
+    cursor: pointer;
+}
