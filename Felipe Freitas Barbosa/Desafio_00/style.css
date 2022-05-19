@@ -1,0 +1,118 @@
+/* ------------------------ Reset ---------------------- */
+*{
+    margin-top: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* --------------------- Cabeçalho ----------------------*/
+.logo {
+    width: 40px;
+    height: 40px;
+    padding-top: 7 px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+nav {
+    color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2vw;
+    gap: 3vw;
+   
+}
+
+.top {
+    height: 50px;
+    width: 94vw;
+    background-color:black;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3vw 0vw 3vw 3vw;
+}
+
+.logo2 {
+    width: 20vw;
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+
+.logo_text {
+    font-weight: 1000;
+    letter-spacing: 5px;
+    font-size: 10px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.8vw;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.menu {
+    font-size: 2vw;
+}
+
+
+/* ---------------------- Body ---------------------- */
+body {
+    background-color: black;   
+    background-image: url(robo.png);
+    background-repeat: no-repeat;
+    background-size: 60vw;
+    background-size: 60vh;
+    background-position: 50vw 7vw;
+    
+}
+
+main{
+    display: flex;
+    align-content: center;
+}
+
+
+.content{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.text {
+    font-size: 12vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-top: 5vw;
+    margin-left: 25vw;
+}
+
+.small_text {
+    color: white;
+    font-size: 1vw;
+    margin-top: -3vw;
+    margin-left: 25vw;
+}
+
+.small_color {
+    color: rgb(212, 126, 44);
+}
