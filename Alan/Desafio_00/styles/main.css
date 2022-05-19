@@ -1,0 +1,59 @@
+.container {
+    height: 30vh;
+    width: 37vw;
+    margin: 8vh 12vw;
+}
+
+img#logo-title {
+    width: 35vw;
+}
+
+.content {
+    margin-top: 35px;
+}
+
+.tab-name {
+    padding-right: 6.5vw;
+    font-size: 10pt;
+    color: #5d5d61;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.tb-value {
+    font-weight: bold;
+}
+
+@media(max-width: 1000px) {
+    .content {
+        font-size: 10pt;
+    }
+    .tab-name {
+        padding-right: 4vw;
+    }
+    #box-tab {
+        width: 100vw;
+    }
+}
+
+@media(max-width: 500px) {
+    .container {
+        width: 85vw;
+        margin: 60vh 8vw;
+        text-align: justify;
+    }
+
+    img#logo-title {
+        width: 80vw;
+    }
+
+    .content {
+        margin-top: 15px;       
+    }
+}
+
+@media(max-width: 400px) {
+    .container {       
+        margin: 55vh 8vw;        
+    }
+}
