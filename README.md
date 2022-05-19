@@ -9,6 +9,6 @@ Faça o clone na sua máquina
 
 Crie uma pasta com o seu nome
 
-Dentro da pasta com seu nome, crie o número do desafio
+Dentro da pasta com seu nome, crie uma pasta com número do desafio
         ex: Rogério
                 -> Desafio_00
