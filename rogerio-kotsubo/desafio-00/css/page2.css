@@ -1,0 +1,25 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+main {
+  font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  background-color: #212227;
+}
+
+#page2 {
+  display: flex;
+  width: 100vw;
+  height: 94vh;
+  font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  justify-content: space-around;
+  align-items: center;
+}
