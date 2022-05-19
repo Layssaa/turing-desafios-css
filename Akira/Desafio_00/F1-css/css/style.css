@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+    to right,
+    #2cb9aa 0%,
+    #2cb9aa 50%,
+    #1c1d23 50%,
+    #1c1d23 100%
+  );
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+  
+  .flex-item-left {
+
+}
+  
+  .flex-item-right {
+    flex: 50%;
+}
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+#text-1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 4vw;
+}
+
+#text-2 {
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 15px;
+    margin: 0 4vw;
+}
+
+#text-3{
+    font-size: 1.2em;
+    margin-right: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gold;
+}
+
+#text-4{
+    font-size: 1vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.flex-item-left a {
+    text-decoration: none;
+}
+
+.flex-item-right ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 6vw;
+}
+
+.flex-item-right ul li {
+    margin: 1vw 2vw;
+}
+
+.flex-item-right li a {
+    text-decoration: none;
+    padding: 1.2vw;
+    color: white;
+    font-weight: 800;
+    font-size: 0.8em;
+}
+
+.flex-item-right li a:hover {
+    text-decoration: none;
+    padding: 1.2vw;
+    background-color: #2cb9aa;
+    color: #1c1d23;
+    font-size: 0.8em;
+}
+
+@media (max-width: 800px) {
+    .flex-item-right ul {
+      flex-direction: column;
+      text-align: center;
+    }
+}
+
+#f1-car {
+    margin-top: 18vh;
+    width: 60vw;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer li a {
+    text-decoration: none;
+    padding: 0 1.2vw;
+    color: white;
+    font-weight: 800;
+    font-size: 0.8em;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    background-color: #2cb9aa;
+    color: #1c1d23;
+    font-size: 0.8em;
+}
+
+footer li::before { 
+    content: "";
+    border-color: transparent rgb(255, 230, 0);
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    left: -0.2em;
+    top: 1em;
+    position: relative;
+}
+
+.flex-container-footer {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    width: 80vw;
+}
+
+@media (max-width: 800px) {
+    .flex-container-footer {
+      flex-direction: column;
+    }
+}
+
+#flex-item-right-footer {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
