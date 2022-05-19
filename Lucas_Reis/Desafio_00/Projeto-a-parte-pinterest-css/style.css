@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: #fbbaa4;
+}
+body {
+    /* background: red; */
+    width: 85vw;
+    height: 65vh;
+    margin: 17vh 8vw;
+    border: solid 4px;
+    border-radius: 40px;
+}
+header {
+    /* background: yellow; */
+    width: 85vw;
+    height: 10vh;
+    margin: ;
+    border-radius: 40px;
+    display: flex;
+}
+#topo_esquerdo {
+    list-style-type: none;
+    /* background: green; */
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo_topo_esquerdo {
+    padding-left: 1.2rem;
+    background-image: url(images/F-removebg.png);
+    background-position: 0 0;
+    background-size: 1.2rem 1.2rem;
+    background-repeat: no-repeat;
+    display: flex;
+    font-weight: 900;
+}
+#topo_direito{
+    /* background: white; */
+    width: 58vw;
+    height: 10vh;
+    display: flex;
+    justify-content: right ;
+    align-items: center;
+    word-spacing: 3vw;
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding-right: 1vw;
+}
+#home {
+    text-decoration: underline;
+    display: flex;
+    margin-right: 3vw;
+}
+#topo_direito_icon {
+    background-image: url(images/tracinhos-removebg.png);
+    background-size: 15%;
+    background-position: center left;
+    background-repeat: no-repeat;
+    width: 7vw;
+    height: 10vh;
+    /* background-color: green; */
+}
+main {
+    display: flex;
+    width: 85vw;
+    height: 55vh;
+}
+#meio_esquerdo {
+    /* background: purple; */
+    width: 45vw;
+    height: 55vh;
+    /* display: flex; */
+    /* border-radius: 40px; */
+}
+#titulo {
+    width: 45vw;
+    height: 20vh;
+    text-align: center;
+    font-weight: 900;
+    font-size: 5vw;
+    padding-top: 4vh;
+    padding-left: 10vw;
+    /* display: flex; */
+    /* background-color: aqua; */
+}
+#texto {
+    width: 45vw;
+    height: 15vh;
+    /* background-color: yellow; */
+    font-size: 1.1vw;
+    padding-left: 15vw;
+    padding-right: 4.7vw;
+    /* display: flex; */
+}
+#button {
+    width: 45vw;
+    height: 20vh;
+    /* background-color: green; */
+    padding-left: 15vw;
+    /* display: flex; */
+}
+button {
+    background-color: #fbb8a2;
+    padding: 1vh 1vw;
+}
+button:hover {
+    background-color: hsl(15, 92%, 85%);
+    
+}
+button:active {
+    background-color: white;
+}
+#morangao {
+    /* background: yellow; */
+    width: 33vw;
+    height: 55vh;
+    display: flex;
+    background-image: url(images/morangos-removebg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:;
+}
+#lado_direito {
+    width: 7vw;
+    height: 55vh;
+    /* background-color: blue; */
+    /* display: flex; */
+}
+#numero01 {
+    width: 7vw;
+    height: 15vh;
+    font-size: 1.2vw;
+    font-weight: 700;
+    /* background-color: red; */
+    padding-left: 1vw;
+    padding-top: 12vh;
+}
+#desenho {
+    /* background-color: green; */
+    width: 7vw;
+    height: 25vh;
+}
+.traço {
+    /* margin-top: 2vh; */
+    margin-left: 1.5vw;
+    width: vh;
+    height: 2vw;
+    border-left: white solid;
+}
+.circulo {
+    margin-left: 1vw;
+    border-radius: 100%;
+    border: solid white;
+    height: 2.5vh;
+    width: 1.25vw;
+}
+.circulocheio {
+    margin-left: 1vw;
+    border-radius: 100%;
+    border: solid black;
+    background-color: black;
+    height: 2.5vh;
+    width: 1.25vw;
+}
+#numero03 {
+    /* background-color: yellow; */
+    width: 7vw;
+    height: 15vh;
+    font-size: 1.2vw;
+    padding-left: 1vw;
+    font-weight: 700;
+}
