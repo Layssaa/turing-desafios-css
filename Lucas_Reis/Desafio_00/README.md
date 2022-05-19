@@ -1,0 +1,1 @@
+Uma página um pouquinho mais responsiva, ta até bonitinha. :D
