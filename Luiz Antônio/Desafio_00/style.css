@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*Define a altura da pagina*/
+section {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+/*Imagem central do copo*/
+.center {
+    height: 40vw;
+    position: absolute;
+    z-index: 1;
+    margin-top: 14vh;
+}
+
+/*Circulo laranja em ao lado do copo*/
+.circle {
+    border-radius: 50%;
+    padding: 25px;
+    border-color: orangered;
+    border-style: solid;
+    border-width: 1.2vw;
+    height: 12vw;
+    width: 12vw;
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 14vh;
+}
+
+/*Metade esquerda da pagina com um tom mais escuro*/
+.box1 {
+    background-color: #1c2123;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+}
+
+/*Primeiro texto do lado esquerdo (PLONDO.)*/
+.text1 {
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+}
+
+/*Titulo da pagina*/
+.title {
+    font-size: 5.5vw;
+    margin-left: 15vw;
+    margin-top: 20vh;
+}
+
+/*Caixa clara a esquerda da imagem central*/
+.mini_box1 {
+    background-color: #263031;
+    height: 20vh;
+    width: 15vw;
+    top: 60vh;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+/*Container para texto dentro da caixa clara*/
+.mini_box1_content {
+    right: -50%;
+    position: relative;
+    bottom: 1.3vw;
+}
+
+/*Titulo da caixa clara*/
+.mini_box1 h2 {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/*Paragrafo da caixa clara*/
+.mini_box1 p {
+    text-align: justify;
+    font-size: 10px;
+}
+
+/*Caixa laranja a esquerda da imagem central*/
+.box_orange {
+    background-color: orangered;
+    height: 3vh;
+    width: 10vw;
+    left: 0;
+    top: 90vh;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+/*Container para texto dentro da caixa laranja*/
+.box_orange_content {
+    right: -50%;
+    position: relative;
+}
+
+/*Metade direita da pagina com um tom mais claro*/
+.box2 {
+    background-color: #263031;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    overflow: hidden;
+}
+
+/*Escrita no canto inferior direito (SLA)*/
+.text2 {
+    position: absolute;
+    font-size: 12px;
+    top: 90vh;
+    right: 5vw;
+}
+
+/*SVG de menu*/
+.menu {
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+}
+
+/*Seta*/
+#right-arrow-foward-sign {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5vw;
+    top: 48vh;
+}
+
+/*Titulo de fundo em cima da imagem central*/
+.escrita {
+    color: #222b2c;
+    font-size: 12.5vw;
+    margin-top: -38%;
+    margin-left: -10%;
+    line-height: 0.9;
+}
+
+/*Caixa escura a direita da imagem central*/
+.mini_box2 {
+    background-color: #1c2123;
+    height: 20vh;
+    width: 25vw;
+    right: 0;
+    top: 60vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+/*Container para texto dentro da caixa escura*/
+.mini_box2_content {
+    left: -20%;
+    position: relative;
+    margin-right: 9vw;
+    bottom: 1.3vw;
+}
+
+/*Titulo da caixa clara*/
+.mini_box2 h2 {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/*Paragrafo da caixa clara*/
+.mini_box2 p {
+    text-align: justify;
+    font-size: 10px;
+
+}
+
+/*Container em volta do SVG de play*/
+.mini_circle {
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    height: 3.5vw;
+    width: 3.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 3vw;
+    top: calc(50% - 1.7vw);
+}
