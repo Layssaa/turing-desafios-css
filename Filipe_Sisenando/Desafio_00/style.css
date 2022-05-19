@@ -1,0 +1,166 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Encode Sans', sans-serif;
+}
+.everything{
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #212428 50%, #26baaa 50%);
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    color: azure;
+}
+header>div{
+    width: 50%;
+}
+h3{
+    width: 10%;
+    margin-left: 7%;
+    font-style: italic;
+}
+.space{
+    letter-spacing: 0.4rem;
+    font-weight: 400;
+}
+.black{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.image{
+    width: 100%;
+    height: 75%;
+}
+img{
+    position:absolute;
+    left: 26%;
+    top:34%;
+    width: 50vw;
+
+}
+footer{
+    width: 100%;
+    height: 10%;
+    color: azure;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+footer> div{
+    width: 16.6%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+.fa-solid{
+   margin: 0 10%;
+   color: yellow;
+   font-size: 1.3rem;
+}
+.direita{
+    width: 50%;
+    height: 100%;
+    background-color: #212428;
+}
+.direita > header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+.container{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.slogan{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 4rem;
+    font-style: italic;
+    color:#23ad9f ;
+    font-weight: 800;
+    padding-left: 3%;
+
+}
+.stole{
+    font-size: 8rem;
+    font-style: italic;
+}
+.cars, .rodape{
+    font-weight: bold;
+}
+.right-bar{
+    width: 15%;
+    height: 100%;
+    color: azure;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-bar>p{
+    margin: 15% 0;
+    color: rgb(202, 202, 0);
+    font-weight: bold;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    margin-right: 10%;
+    font-size: 1.2rem;
+}
+.right-bar>h4{
+    color: white;
+    writing-mode: vertical-rl;
+    border: 1px solid white;
+    height: 50%;
+    margin-right: 10%;
+}
+.cars{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cars>div{
+    width: 16.6%;
+    display: flex;
+    align-items: center;
+    padding-right: 4%;
+}
+.rodape{
+    width: 35%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: center;
+    font-weight:400;
+    text-align: justify;
+    color: azure;
+}
+.rodape> p::before{
+    color: rgb(202, 202, 0);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 1%;
+    content: '1970s';
+}
