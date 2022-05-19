@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <title>Nowhere Near</title>
+    <style>
+        /* Estilização de header */
+        header{
+            display: flex;
+            margin-top: 2em;
+            justify-content: space-around;
+        }
+        header section{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 2vw;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        /* Imagem de fundo */
+        .background{
+            border-top: 1em solid transparent;
+            background-image: url('images/nowherenear.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 55vw;
+            width: 90vw;
+            height: 30vw;
+            background-position-x: 28vw;
+            margin-top: 5vw;
+        }
+        /* Título */
+        .nowhere{
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 10vw;
+            font-size: 3vw;
+        }
+        #n01{
+            margin-left: 10vw;
+            margin-top: 3vw;
+        }
+        #nowhere{
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 300;
+            text-decoration: underline;
+            text-underline-position: under;
+            text-decoration-thickness: 1px;
+            font-size: 8vw;
+        }
+        p{
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+        }
+        /* Linha do "Dive in" */
+        .divein{
+            margin-top: -2vw;
+        }
+        #divein{
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 2vw;
+            font-weight: bold;
+            margin: 10vw;
+            font-size: 11px;
+        }
+        hr{
+            max-width: 8vw;
+            margin: -0.8vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section>HOME</section>
+        <section>FEATURES</section>
+        <section>STORIES</section>
+        <section>EVENTS</section>
+    </header>
+    <main>
+        <section class="background">
+            <p  class="nowhere" id="n01">01</p>
+            <p  class="nowhere" id="nowhere">Nowhere Near</p>
+        </section>
+        <section class="divein">
+            <hr> <span id="divein">DIVE IN</span>
+        </section>
+    </main>
+    
+</body>
+</html>
