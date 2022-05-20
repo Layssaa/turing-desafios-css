@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Klassiq NBP";
+    src: url(../assets/fonts/klassiq_0-webfont.woff);
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'League Spartan', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/images/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    color: #8692A2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 11vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logotext {
+    display: flex;
+    font-family: 'Klassiq NBP', sans-serif;
+    font-size: 3vh;
+}
+
+.searchbar {
+    display: flex;
+    margin-left: 60vw;
+}
+
+.menu {
+    display: flex;
+    margin-right: 2vw;
+    gap: 2vw;
+    align-items: center;
+    letter-spacing: 0.5vw;
+}
+
+.menuicon {
+    height: 6vh;
+    background-color: #303C4D;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vh;
+}
+
+.number {
+    display: flex;
+}
+
+.number:hover {
+    font-size: 250%;
+    color: #FFE8D1;
+}
+
+.number:hover::before {
+    content: url(../assets/images/barra1.svg);
+    align-items: center;
+}
+
+.description {
+    margin-top: 10vh;
+    margin-right: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 460%;
+    font-weight: 700;
+    color: #FFE8D1;
+}
+
+.subtitle {
+    font-size: 420%;
+    font-weight: 100;
+    color: #FFE8D1;
+    text-align: right;
+}
+
+.button {
+    width: 12vw;
+    height: 6vh;
+    background-color: #F64A24;
+    color: #FFE8D1;
+    border-radius: 1vw;
+    border: none;
+}
+
+.margintop {
+    margin-top: 4vh;
+}
+
+.social {
+    display: flex;
+    margin-right: 2vw;
+    writing-mode: vertical-rl;
+    font-size: 2vh;
+    transform: rotate(180deg);
+}
+
+.separator {
+    height: 6vh;
+    display: flex;
+    margin-top: 0.4vh;
+    margin-right: 0.3vw;
+    margin-bottom: 0.4vh;
+    border-right-width: 0.2vw;
+    border-right-style: solid;
+    border-right-color: #F64A24;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 4vh;
+}
+
+.ftext {
+    width: 24vw;
+    line-height: 3.5vh;
+    font-size: 90%;
+}
+
+.ftext::first-line {
+    font-weight: 700;
+    color: #FFE8D1;
+}
