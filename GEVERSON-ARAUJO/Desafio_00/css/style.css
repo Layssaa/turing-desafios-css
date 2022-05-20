@@ -1,0 +1,140 @@
+/* ESTILIZANDO O BODY*/
+body{
+    background: rgb(20,19,19);
+    background: linear-gradient(90deg, rgba(20,19,19,1) 50%, rgba(57,57,57,1) 50%);
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CENTRALIZANDO IMAGEM */
+#img-principal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*PARÁGRAFOS NA COR BRANCA*/
+p{
+    color: white;
+}
+
+/* ESTILIZANDO O HEADER */
+header > p{
+    font-size: 1.6em;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: block;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+/* ESTRUTURANDO A PRIMEIRA SEÇÃO */
+.section-top{
+    width: 100%;
+}
+
+.first_div_top{
+    width: 50%;
+    display: inline-block;
+    font-size: 5em;
+}
+
+.second_div_top{
+    width: 50%;
+    display: inline-block;
+}
+
+.paragraph_top{
+    margin-left: 25%;
+    margin-top: 8%;
+}
+
+.circle{
+    background: rgba(57,57,57,1) 50%;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    border: 18px solid rgb(220, 99, 54) ;
+    margin-left: 5%;
+}
+
+.menu-browser {
+    height: 5px;
+    width: 40px;
+    background-color: white;
+    display: block;
+    margin: 4px;
+    margin-left: auto;
+}
+
+/* ESTRUTURANDO A SEGUNDA SEÇÃO*/
+
+.seta{
+    text-align: right;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.seta >img {
+    margin-right: 5%;
+    width: 50px;
+    height: 40px;
+}
+
+.section-bot{
+    display: flex;
+    margin-bottom: 8%;
+    justify-content: space-between;
+}
+
+.first_div_bot{
+    width: 50%;
+    background: linear-gradient(90deg, rgba(57,57,57,1) 50%, rgba(20,19,19,1) 50%);
+    padding: 2% 0 2% 0;
+}
+
+.second_div_bot{
+    width: 50%;
+    margin-left: 30%;
+    background: linear-gradient(90deg, rgba(57,57,57,1) 35%, rgba(20,19,19,1) 35%);
+    padding: 2% 0 2% 0;
+}
+
+.first_div_bot >h3, .second_div_bot > h3{
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 3%;
+    margin-left: 27%;
+}
+
+.first_div_bot >p, .second_div_bot > p{
+    margin-left: 27%;
+}
+
+/* ESTILIZANDO RODAPÉ */
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-footer{
+    width: 50%;
+    background: linear-gradient(90deg, rgba(220,99,54,1) 25%, rgba(20,19,19,1) 25%);
+}
+
+.parag-footer{
+    margin-left: 19%;
+}
+
+.parag2-footer{
+    margin-right: 5%;
+}
