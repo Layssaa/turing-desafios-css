@@ -1,0 +1,140 @@
+root{
+--silver-chalice: #B1B3B5ff;
+--sonic-silver: #717172ff;
+--raisin-black: #1B1C22ff;
+--persian-orange: #D68F4Fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.org{
+    color:#D68F4Fff;
+}
+body{
+    margin:0;
+    background-color:#1B1C22ff;
+    color:white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main > *{
+    /* margin-top:10px; */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    
+    border-bottom:groove 1px #D68F4Fff;
+}
+header a{
+    color:#717172ff;
+    padding: 40px 40px 10px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header img:hover{
+    background-color: grey;
+}
+header span{
+    padding:20px;
+    font-family:'Lucida Sans';
+    color:#B1B3B5ff;
+}
+
+.selected{
+    color:white;
+}
+
+#content{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#texto{
+    margin-left:60px;
+    margin-right:0px;
+    font-size:100%;
+    max-width: 25vw;
+    /* min-width: 20vw; */
+    font-family:sans-serif;
+}
+
+
+#maintext{
+    font-size: 7vw;
+    margin:0;
+}
+
+#imagens img{
+    width:20vw;
+    margin:10px;
+    box-shadow:5px 5px 6px black;
+}
+
+#imagens img:hover{
+    transform:scale(1.05);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+}
+#sqr{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+#seta{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#seta :first-child{
+    color:#717172ff;
+}
+#seta :last-child{
+    color:#D68F4Fff;
+}
+.square{
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    box-shadow:0px 2px 2px black;
+}
+.square:hover{
+    width: 8px;
+    height: 8px;
+}
+
+.square.selected{
+    background-color: #D68F4Fff;
+    box-shadow:0px 2px 2px rgba(214, 142, 79, 0.733);
+    width: 10px;
+    height: 10px;
+}
+
+
+
+#traço{
+    width: 20px;
+    height: 2px;
+    color:#D68F4Fff;
+    background-color: #D68F4Fff;
+}
