@@ -1,0 +1,110 @@
+/* ## Configuração geral da página ## */
+@font-face {
+    font-family: 'asterina';
+    src: url(../assets/font/modern-serif-font/WOFF/asterina.woff);
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ## Corpo ## */
+body {
+    background: linear-gradient(to right, #DFD8D4 0%, #DFD8D4 54%, #DFD8D4 50%);
+    margin: auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+}
+
+/* ## Cabeçalho ## */
+ /* Menu */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a,
+.roboto {
+    color: #0E0C0A;
+    font-family: "Roboto", sans-serif;
+    font-size: 20PX;
+    text-decoration: none;
+}
+
+a:link {
+    color: #0E0C0A;
+}
+
+a:visited {
+    color: #0E0C0A;
+}
+
+a:hover {
+    color: #845038;
+}
+
+.listMenu {
+    display: flex;
+    padding: 4px;
+}
+
+.right {
+    padding-right: 60px;
+}
+
+.left {
+    padding-left: 60px;
+}
+
+.hide {
+    list-style: none;
+}
+
+/* ## Conteúdo Principal ## */
+main {
+    background-image: url(../assets/image/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    height: 92vh;
+    text-align: center;
+}
+
+h1 {
+    color: #0E0C0A;
+    font-family: "asterina", sans-serif;
+    font-size: 280px;
+    font-weight: 100;
+    padding: 15px 0px;
+}
+
+/* Seção Informações */
+.sectionInfos {
+    display: flex;
+    align-items: flex-end;
+    height: 230px;
+    justify-content: space-between;
+}
+
+.code {
+    padding-right: 90px;
+}
+
+/* ## Rodapé ## */
+footer > p {
+    color: #0E0C0A;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px; 
+}
+
+.robotoSamll {
+    color: #0E0C0A;
+    font-size: 12PX;
+    text-decoration: none;
+}
