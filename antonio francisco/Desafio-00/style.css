@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+#sec1{background-image: url("imagens/fundo.svg") ;
+    background-repeat: no-repeat;
+    font-family: "Courier", Courier, monospace;
+    background-color: rgba(70, 70, 136, 0.13);
+    background-size: 100%;
+    height: 100vh;
+}
+h1{
+  font-size: 3.125rem;
+   color: aliceblue;
+}
+
+svg{fill:white;
+width: 3.125rem;}
+ 
+.div1 div{
+  display: inline-block;
+}
+
+#sec2{
+  height: 43.8vh;
+  position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+ svg:hover{
+  fill: red;
+}
+#buton{
+  margin: 19% 90%;
+}
+#divh1{
+  position: absolute;
+    top: 48%;
+    left: 28%;
+}
+footer{
+  position: relative;
+    top: 78%;
+}
+
+ nav{
+   text-align: right;
+}
+#nav1{
+  display: inline-block;
+ width: 50%;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  font-size: 3.125rem;
+  color: white;
+}
+
+
+#nav2{
+  display: inline-block;
+  width: 25%;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  
+}
+a{
+  color: aliceblue;
+ text-decoration: none;
+}
+#TITULO{
+  margin-top: 5rem;
+}
+#navpag2{
+  background-image: url("imagens/fundo.svg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.list-produtos{
+  border: solid 1PX ;
+}
+.produtos{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 400px;
+    height: 230px;
+    margin: 40px;
+    box-shadow: 1px -9px 48px -1px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+    
+}
+#produto1{
+  background-color: #ffa98ef6;
+  }
+#produto2{
+  background-color: #06a1eb;
+}
+#produto1:hover{
+  color: aqua;
+  background-color: rgba(248, 15, 15, 0.363);
+}
+#produto2:hover{
+  color: aqua;
+  background-color: rgba(248, 15, 15, 0.363);
+}
+
+.card1{
+  display: inline-block;
+  font-size: 20px;
+    color: black;
+    margin: 12px;
+    width: 98%;
+}
+  
+.card11{
+  font-size: 50px;
+    color: black;
+    float: left;
+    margin-top: 5vh;
+    margin-left: 25px;
+    width: 55%;
+}
+.card2{
+  display: inline-block;
+ 
+}
