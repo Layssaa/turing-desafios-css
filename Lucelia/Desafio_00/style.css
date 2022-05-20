@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap'); */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/background.jpg);
+    /*Não repetir a img*/
+    background-repeat: no-repeat;
+    /*Adaptar a img*/
+    background-size: cover;
+    /*extender a img*/
+    background-clip: padding-box;
+    /*FONTE*/
+    font-family: 'Jost', sans-serif;
+}
+
+header{
+    /* background: red; */
+    
+    width: 100vw;
+    height: 12vh;
+
+    display: flex;
+}
+
+.logo{
+    /* background: green; */
+    width: 15vw;
+
+    font-size: 3vh;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4vw;;
+    
+    /*espaçamento entre as letras*/
+    letter-spacing: 1vw;
+    color: #fff;
+
+}
+
+.navbar{
+    /* background: yellow; */
+
+    display: flex;
+    justify-content: right; 
+    width: 85vw;  
+}
+
+.listadesor{
+    /* background: blue; */
+
+    list-style: none;
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    color: #fff;
+    font-size: 2vh;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+li a:hover {
+    color: rgb(249, 220, 175);
+}
+
+.conteudo1{
+    /* background: pink; */
+
+    width: 100vw;
+    height: 40vh;
+
+    display: flex;
+}
+
+.titulo1{
+    /* background: green; */
+
+    width: 70vw;
+    height: 40vh;
+
+    display: flex;
+   
+    color: #fff;
+    font-weight: 400;
+    font-size: 12vh;
+
+    justify-content:left;
+    align-items:flex-end;
+
+    margin-left: 5vw;
+
+    letter-spacing: 0.5vw;
+}
+
+.titulo2{
+    /* background: violet; */
+
+    width: 30vw;
+    height: 30vh;
+
+    display: flex;
+   
+    color: #fff;
+    font-weight: 400;
+    font-size: 30vh;
+
+    justify-content:right;
+    align-items:flex-end;
+
+    margin-right: 5vw;
+}
+
+.textum{
+    /* background: blueviolet; */
+
+    color: #fff;
+
+    font-size: 3vh;
+    font-weight: 500; 
+    
+    letter-spacing: 0.5vw;
+}
+
+.textdois{
+    color: #fff;
+
+    font-size: 3vh;
+    font-weight: 200; 
+    
+    letter-spacing: 0.6vw;
+
+}
+
+.conteudo2{
+    /* background: red; */
+
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+}
+
+.linha{
+    /* background: yellowgreen; */
+
+    width: 5vw;
+    height: 5vh;
+
+    display: flex;
+    margin-left: 5vw;
+
+    border: 0.2vw solid #fff; 
+    border-width: 0px 0px 1px 0px;
+   
+    align-items:center;
+    justify-content:left;
+    
+}
+
+.titulo3{
+    /* background: violet; */
+
+    width: 60vw;
+    height: 10vh;
+
+    display: flex;
+    margin-left: 2vw;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.5vh;
+
+    justify-content:left;
+    align-items:center;
+
+    letter-spacing: 0.2vw;
+}
+
+.conteudo3{
+    /* background: yellowgreen; */
+
+    width: 100vw;
+    height: 38vh;
+
+    display: flex;
+}
+
+.boxum{
+    /* background: violet; */
+
+    width: 7vw;
+    height: 19vh;
+
+    display: block;
+    margin-left: 5vw;
+    margin-top: 8vw;
+    
+    justify-content:stretch;
+    align-items:center;
+}
+   
+.boxdois{
+    /* background: violet; */
+
+    width: 7vw;
+    height: 19vh;
+
+    display: block;
+    margin-left: 1vw;
+    margin-top: 8vw;
+    
+    justify-content:center;
+    align-items:center;
+}
+
+
+.titulo4{
+    color: #fff;
+    font-weight: 200;
+    font-size: 2vh;
+    letter-spacing: 0.2vw;
+}
+
+.texttres{
+    color: #fff;
+    font-weight: 400;
+    font-size: 3.5vh;
+}
+
+.boxtres{
+    /* background: red; */
+
+    width: 50vw;
+    height: 25vh;
+
+    display: block;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    
+    justify-content:center;
+    align-items:center;
+}
+
+.textqua{
+    letter-spacing: 0.2vw;
+}
+
