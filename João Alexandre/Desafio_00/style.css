@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*SIDE NAV*/
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: underline;
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#itens {
+    top: 110px;
+    background-color: goldenrod;
+    background-image: url("img/Ship-Steering-Wheel-icon.png");
+}
+
+#map {
+    top: 162px;
+    background-color: #2196F3;
+    background-image: url("img/map.jpg");
+}
+
+#missions {
+    top: 215px;
+    background-color: #f44336;
+    background-image: url("img/mission.png");
+}
+
+#news {
+    top: 268px;
+    background-color: #555;
+    background-image: url("img/noticia.jpg");
+}
+
+/*TABELA*/
+
+#customers {
+    font-family: Tahoma, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: hsl(0, 100%, 50%);
+    color: gold;
+}
+
+#Naveg {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    justify-content: center;
+}
+
+
+.container {
+    position: relative;
+    width: 10%;
+    display: inline;
+    justify-content: space-around;
+}
+
+.image {
+    opacity: 1;
+    display: inline-block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: rgb(226, 3, 89);
+    color: white;
+    font-size: 2vh;
+    padding: 7vh 14wh;
+}
+
+/*BORDAS*/
+main {
+    display: flex;
+    overflow: auto;
+    display: inline-block;
+    background-color: hsl(231, 29%, 69%);
+    border-top: inset;
+    border-right: inset;
+    border-bottom: inset;
+    border-left: inset;
+    width: 800px;
+    height: 750px;
+    color: hsl(0, 73%, 25%)
+}
+
+/*TÍTULO DA PÁGINA*/
+#sectionUm {
+    color: hsla(0, 100%, 50%, 0.7);
+    writing-mode: vertical-rl;
+    font-size: 11.1vh;
+    font-family: fantasy;
+    letter-spacing: 0vw;
+    display: inline-block;
+    float: none;
+}
+
+/*ESPECIFICAÇÕES DO BODY*/
+
+body {
+    font-family: Lucida, Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("img/fundo.png");
+    background-repeat: no-repeat;
+}
+
+#font20px {
+    font-size: 3vh;
+    font-family: fantasy;
+}
+
+h1 {
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    background-image: url("img/fundo.png");
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    text-orientation: uppercase;
+
+}
+
+h2 {
+    font-family: "IBM Plex Serif";
+    color: hsla(0, 75%, 44%, 0.9);
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span {
+    background: #401c94;
+    color: white;
+    border-style: outset;
+    border-color: #a20008;
+    height: 50px;
+    width: 50px;
+    font: bold 15px arial, sans-serif;
+}
+
+button:hover {
+    color: yellowgreen
+}
+
+#divShadow {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 250px;
+    height: 250px;
+    color: rgba(0, 0, 0, 0);
+    box-shadow: 8px 3px 3px #1c1e83, 10px 5px 5px #6253ec, 20px 5px 5px #867cbb;
+    background-image: url("img/pirata1.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*NAVIOS*/
+#divNavioUm {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 150px;
+    height: 150px;
+    color: #d11e36;
+    box-shadow: 5px 5px 5px #2e0101;
+    background-image: url("img/going-merry.jpg");
+    display: block;
+}
+
+#divNavioDois {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 150px;
+    height: 150px;
+    color: #d11e36;
+    box-shadow: 5px 5px 5px #2e0101;
+    background-image: url("img/thousand-sunny.png");
+    display: block;
+}
+
+#divNavioTres {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 150px;
+    height: 150px;
+    color: #d11e36;
+    box-shadow: 5px 5px 5px #2e0101;
+    background-image: url("img/moby-dick.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: white;
+    display: block;
+
+}
+
+#divNavioQuatro {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 150px;
+    height: 150px;
+    color: #d11e36;
+    box-shadow: 5px 5px 5px #2e0101;
+    background-image: url("img/oro-jackson.png");
+    display: block;
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 975px) {
+    #sectionUm {
+        width: auto;
+        writing-mode: horizontal-tb;
+        font-size: 8vh;
+    }
+}
+
+@media (max-width: 975px) {
+    main {
+        width: auto;
+    }
+}
+
+@media (max-width: 975px) {
+    .container {
+
+        position: relative;
+        width: 100%;
+        display: inline;
+        justify-content: right;
+
+    }
+}
+
+@media (min-width: 750px) and (max-width: 860px) {
+    #divShadow {
+        width: 30%;
+        height: 30%;
+        Background-position: center;
+    }
+}
+
+@media (max-width: 860px) {
+
+    #customers td,
+    #customers th {
+        border: 0px solid #ddd;
+        padding: 8px;
+    }
+}
