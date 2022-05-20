@@ -1,0 +1,123 @@
+/*Estilos gerais da página*/
+body {
+    margin: 0%;
+    background-image: url(../images/Geraldine-Peak.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-position:right bottom;   
+   
+}/*Começo da estilização do header*/
+header{ 
+    display: flex;
+    padding: 5vh ;
+    justify-content: space-between;
+}
+/*estilização da logo*/
+header .logo {
+  width: 15vw;
+  font-weight: 500;
+  align-items: center;
+  color: white;
+  font-family: 'Koulen', cursive;
+  letter-spacing: 7px;
+        
+}
+/*Estilos da class navbar-barra de navegação*/
+header .navbar {
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-weight: 400;
+    letter-spacing: 5px;
+    list-style-type: none;
+    color:white;
+    font-size: 0.7vw;
+}
+/* Começo dos estilos da parte principal da página*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+    padding-top: 10vh;
+    color:#f2f5fa;
+    line-height: 0.7;
+}
+#title{
+    font-weight:100;
+    font-size: 3vw;
+    font-family:'Josefin Sans', sans-serif;
+    letter-spacing: 7px;
+}
+.title-paragrafo{
+    font-size: 1vw;
+}
+.title-paragrafo::before{/*barra que está antes da frase 'explore the climb'*/
+    background-color: #f2f5fa;
+    content: "";
+    display:inline-block;
+    height:1px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%;
+}
+.title-paragrafo:before{
+    right: 0.5em;
+}
+#numero-lateral{
+    color: #f2f5fa;
+    letter-spacing: 8px;
+    font-size:x-large;
+    font-weight: 700;
+}
+/*fim da estilização da parte principal da página*/
+/*-----------------------------------------------*/
+/*Estilos do rodapé*/
+footer{
+    display: flex;
+    width: 100vw;
+    height: 17vh;
+    position: fixed;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color:#f2f5fa ;
+    line-height: 0.5;
+
+
+}
+#primeiro-bloco{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-left: 4vw;
+  padding-top: 2vh;
+  
+}
+footer .paragrafo{
+    font-weight: 600;
+    font-size: medium;
+}
+.footer-title{
+    font-size:x-small;
+    font-weight:100;
+    color:#ddd;
+    letter-spacing: 7px;
+}
+h3{
+    font-size: 1vw;
+    font-weight: 100;
+    letter-spacing: 4px;
+} 
+#texto-lateral{ /*estilização do texto que está no canto direito do footer*/
+    display:flex;
+    flex-direction: column;
+    font-size:x-small;
+    line-height: 0.1;
+    letter-spacing: 1px;
+}
