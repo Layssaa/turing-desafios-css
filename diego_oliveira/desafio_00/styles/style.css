@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*remore o outline quando o elemento pega o focus e usa a borda para realizar o efeito*/
+*:focus{
+    outline: none;
+    border-bottom: 0.2vh solid;
+}
+
+@font-face {
+    font-family: "rain";
+    src: url("../fonts/rain-webfont.woff2");
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle farthest-side at 35% 0%, #414345 15%, #1C1E23 65%);
+    /*fonte e cor predominantes dos textos*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #dddddd;
+    /*dividir a body em duas colunas: section-left, section-right*/
+    display: flex;
+}
+
+/*todos links ficaram com a fonte padrão e sem underline*/
+a {
+    box-sizing: padding-box;
+    /* background-color: red; */
+    color: #dddddd;
+    text-decoration: none;
+    border-bottom: 0 solid;
+    padding-bottom: 2vh;
+  
+
+}
+
+/*ao invés de usar text-decoration: underline porque fica muito perto do texto foi usado a borda para realizar o efeito*/
+/* nav ul */a:hover { 
+    padding-bottom: 2vh;
+    border-bottom: 0.2vh solid;
+}
+
+/* a Seção esquerda possue duas subseções: logo da pagina e as redes sociais*/
+
+#section-left {
+     /* background-color: hotpink;  */
+    padding: 5vh 0;
+    width: 8vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#section-logo {
+    /* background-color: purple; */
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'rain';
+    font-size: 3vmax;
+     /*espaçamento para deixar bem próximo LU NA*/
+    line-height: 2.3vmax;
+    /*aumentar o espaçamento entre as letras*/
+    letter-spacing: 0.5vmax;
+    font-weight: 600;
+
+
+}
+
+#section-social-media {
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+
+}
+
+/*a cor dos icones foram alteradas dentro da própria imagem com o comamndo fill dentro da tag path*/
+.icon {
+    width: 1.8vmax;
+}
+
+/*------------------------------------------------------------*/
+
+/* a Seção direita possue duas subseções: nav (navegação) e main (conteudo principal) */
+#section-right {
+    /* background-color: green; */
+    padding: 5vh 0;
+    box-sizing: border-box;
+    width: 84vw; /*100 - 2 x (section-left=8) = 84 >>> para ficar simetrico */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+nav {
+    /* background-color: purple; */
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    gap: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.3vw;
+}
+
+
+
+main {
+     /* background-color: rgba(255, 255, 255, 0.3);   */
+    height: 75vh;
+    display: flex;
+}
+
+/*------------------------------------------------------------*/
+
+
+/*Main da Página index */
+
+#main-inicial{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-index-top {
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+}
+#eu-sou {
+    /* background-color: yellow; */
+    width: 50vw; /*deslocamento contando da direita para alinha na letra U de LUNA*/
+    font-size: 1.3vw;
+}
+
+#main-index-medium{
+    /* background-color: brown; */
+    font-family: 'rain';
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 600;
+}
+
+#main-index-bottom {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+#princesa-papai {
+    width: 43vw; /*deslocamento contando da direita para alinha na letra N de LUNA*/
+    font-size: 1.5vw;
+}
+
+/*------------------------------------------------------------*/
+
+/*Main da Página Contato */
+
+#main-contact{
+    justify-content: center;
+    text-align: center;
+}
+
+#main-contact h1{
+    font-family: 'rain';
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 200;
+    /*aumentar o espaçamento entre as letras*/
+     letter-spacing: 0.4vw;
+}
+
+#main-contact h2{
+    font-family: 'rain';
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 200;
+ 
+}
+
+#main-contact-left{
+    /* background-color: hotpink;  */
+    width: 42vw; /*metade da seção da direta (84vw)*/
+    padding: 3vh 4vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6vh;
+}
+
+#main-contact-left p{
+    font-size: 1.2vmax;
+    line-height: 1.5vmax;
+}
+
+#main-contact-right{
+    width: 42vw; /*metade da seção da direta (84vw)*/
+    padding: 3vh 3vw;
+    display:flex;
+    gap: 6vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    box-shadow: -0.5vw 1vh 2vmax 0.2vmax black;
+}
+
+#main-contact-right input{
+    height: 5vh;
+    width: 35vw;
+    color: #dddddd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vmax;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 0.2vh solid;
+
+}
+#main-contact-right button{
+    width: 20vw;
+    height: 5vh;
+    color: #dddddd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vmax;
+    background-color: transparent;
+    border-style: none;
+    box-shadow: 0.5vw 1vh 2vmax 0.2vmax black;
+
+}
+
+#main-contact-right button:hover{
+    width: 20vw;
+    height: 5vh;
+    color: #dddddd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vmax;
+    background-color: transparent;
+    border-style: none;
+    box-shadow: 0.5vw 1vh 2vmax 0.2vmax black;
+
+}
+
+/*------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
