@@ -1,0 +1,134 @@
+body {
+    background-image: url("./image/velapreta.svg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    font-family: "Advent Pro", sans-serif;
+  }
+  header {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    margin-right: 80px;
+    font-size: 1.5vh;
+    color: whitesmoke;
+    font-family: "Work Sans", sans-serif;
+    cursor: pointer;
+  }
+  .trevour {
+    font-family: "Work Sans", sans-serif;
+    margin-left: 60px;
+    font-size: 1.5vh;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  
+  main {
+    margin-left: 15px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 15vh;
+    font-weight: 100;
+    margin-left: 155px;
+  }
+  
+  .candle {
+    font-family: "Work Sans", sans-serif;
+    margin-left: 164px;
+    margin-top: 90px;
+    font-size: 1.8vh;
+    color: whitesmoke;
+    font-weight: 100;
+  }
+  .text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.9vh;
+    margin-left: 157px;
+    margin-top: 25px;
+    color: whitesmoke;
+    font-weight: 100;
+  }
+  .loremipsum {
+    margin-bottom: 8px;
+  }
+  .peso {
+    display: flex;
+    flex-direction: column;
+  }
+  .altura {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+  }
+  .queima {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+  }
+  .medidas {
+    display: flex;
+    margin-left: 157px;
+    margin-top: 90px;
+  }
+  .medidasfonte {
+    font-size: 1.8vh;
+    color: whitesmoke;
+    font-weight: 100;
+  }
+  .medidasvalores {
+    margin-top: 7px;
+    font-size: 2vh;
+    color: white;
+    font-weight: 200;
+  }
+  .botao {
+    font-family: "Work Sans", sans-serif;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.3vh;
+    font-weight: 400;
+    width: 170px;
+    height: 55px;
+    cursor: pointer;
+    margin-top: 90px;
+  }
+  .quantidade {
+    color: white;
+    display: flex;
+    height: 55px;
+    width: 120px;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.2px solid #a9a9a9cc;
+    margin-left: 170px;
+    margin-top: 90px;
+    margin-right: 20px;
+  }
+  .cart {
+    display: flex;
+  }
+  .entrar {
+    font-family: "Work Sans", sans-serif;
+    margin-left: 60px;
+    margin-top: 110px;
+    font-size: 1.5vh;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 767px) {
+  }
+  
