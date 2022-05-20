@@ -1,0 +1,154 @@
+/* Colors: #FDB6AF #C1E7BE #A0DCE6 */
+
+/*  Referência: https://dribbble.com/shots/6022518-Fruit-Series-II */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Snap Scroll */
+
+#Wrapper{
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.Section{
+    scroll-snap-align: center;
+    height: 100vh;
+    display:flex;
+    
+    background-color:  #FDB6AF;
+    align-items: center;
+    
+}
+
+ /* Header */
+
+ header{
+    display: flex;
+    position: fixed;
+
+    width: 100vw;
+    height: 15vh;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    height: 15vh;
+    width: 25vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2vw;
+    gap: 0.1vw;
+
+}
+.navbar{
+    height: 15vh;
+    width: 45vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 2.5vh;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:#000000
+
+}
+
+.DivMenuIcon{
+    width: 5vw;
+    height: 15vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#icon{
+    height: 10vh;
+    width: 4vw;
+}
+
+#menuicon{
+    height: 7vh;
+}
+
+/* Content */
+
+.Grapes{
+    background-color:#C1E7BE ;
+}
+
+.Tomato{
+    background-color: #A0DCE6 ;
+}
+
+.maintext{
+    height: 55vh;
+    width: 45vw;
+    
+    font-size: 7vh;
+    padding: 5vh 10vw;
+
+}
+
+.maintext p{
+    font-family: font-family: 'Noto Sans JP', sans-serif;;
+    font-size: 2vh;
+}
+
+.DivButton{
+    margin-top: 10vh
+}
+
+button{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border: #000000 solid 3px;
+
+    height: 6vh;
+    width: 8vw;
+
+    background-color: transparent;
+
+    font-size: 2vh;
+}
+
+/* Images */
+
+.fruits{
+    height:60vh;
+    margin: 5vh 0 0 12vw
+}
+
+.strawberry{
+    filter: drop-shadow(4px 6px 10px #585858);
+
+}
+
+.grape{
+    filter: drop-shadow(2px 7px 7px #585858);
+}
+
+.tomatoes{
+    filter: drop-shadow(3px 6px 5px #585858);
+}
