@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+body {
+    background-color: #feebe7;
+
+}
+
+#fundotop {
+    width: 66vw;
+    position: fixed;
+    top: 0;
+    right: 30px;
+    z-index: 0;
+}
+
+#fundobottom {
+    width: 58vw;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    z-index: 0;
+}
+
+/*=========== CABEÇALHO ===========*/
+#menucheck {
+    visibility: hidden;
+}
+
+#flexmenu {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+#header {
+    width: 100vw;
+    height: 130px;
+    display: flex;
+}
+
+#header_l {
+    width: 34%;
+    height: 100%;
+    text-align: center;
+}
+
+#header_l img {
+    width: 180px;
+    height: 45px;
+    margin-top: 30px;
+}
+
+#header_r {
+    width: 66%;
+    height: 100%;
+    padding-left: 14%;
+}
+
+#navbar,
+#navbar ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#header_r li {
+    list-style: none;
+    align-self: center;
+}
+
+#header_r a {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-decoration: none;
+    color: #92255C;
+    font-size: 23px;
+    font-weight: 900;
+    margin: 0 22px;
+}
+
+#header_r a:hover {
+    text-decoration: underline;
+}
+
+/*=========== CORPO ===========*/
+
+#hello {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 90px;
+    line-height: 110px;
+    background-image: linear-gradient(to left, #8d2985, #ed008d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: fixed;
+    top: 35vh;
+    right: 10vw;
+}
+
+#rosquinha {
+    width: 40vw;
+    min-width: 555px;
+    position: fixed;
+    top: 12vh;
+}
+
+/*=========== RODAPÉ ===========*/
+
+#footer {
+    width: 372px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 10vw;
+    top: 76vh;
+}
+
+#btn1 {
+    border: solid 2px #c37f8f;
+    display: flex;
+    width: 158px;
+    height: 42px;
+}
+
+#btn1 a {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #be2d70;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 6px 13px;
+}
+
+#btn2 {
+    display: flex;
+    background-image: linear-gradient(to left, #842983, #ec0383);
+    padding: 0 20px;
+    color: white;
+    align-items: center;
+}
+
+#follow {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#btn2 img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+/*=========== RESPONSIVIDADE ===========*/
+@media (max-width: 950px) {
+    #hello {
+        -webkit-text-stroke: 5px #FFF;
+        transition: all .5s;
+    }
+
+    #footer {
+        top: initial;
+        bottom: 20px;
+    }
+
+    #header_r a {
+        margin: 0 10px;
+    }
+
+    #header_r {
+        padding-left: 0;
+        transition: all .5s;
+    }
+}
+
+@media (max-width: 620px) {
+
+    #rosquinha {
+        width: 90vw;
+        min-width: 250px;
+    }
+
+    #footer {
+        width: 100vw;
+        height: 95px;
+        right: initial;
+        top: initial;
+        bottom: 5px;
+        justify-content: center;
+    }
+
+    #btn1 {
+        height: 47px;
+        width: 240px;
+    }
+
+    #btn1 a {
+        width: 100%;
+        text-align: center;
+        padding: 9px 13px;
+    }
+
+    #btn2 {
+        height: 47px;
+        width: 240px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 550px) {
+
+    #hello {
+        z-index: 0;
+        font-size: 50px;
+        text-align: center;
+        line-height: 70px;
+        top: 9vh;
+        width: 100%;
+        left: 0;
+        -webkit-text-stroke: 0;
+        transition: all .5s;
+    }
+
+    #fundotop {
+        visibility: hidden;
+    }
+
+    #header {
+        background-color: #ffd9da;
+        height: 50px;
+        box-shadow: #50505080 0 2px 10px;
+        transition: all .5s;
+    }
+
+    #header_l img {
+        width: 100px;
+        height: 25px;
+        position: fixed;
+        margin-top: 12px;
+        left: 15px;
+        transition: all .5s;
+    }
+
+    #header_r {
+        visibility: hidden;
+    }
+
+    #flexmenu {
+        visibility: visible;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+
+    #rosquinha {
+        z-index: 0;
+        top: 30vh;
+        transition: all .5s;
+    }
+
+    #header_r {
+        width: 0;
+    }
+
+    #footer {
+        z-index: 0;
+    }
+
+    /* --------------------- */
+
+    #navbar ul {
+        z-index: 1;
+        display: block;
+        visibility: visible;
+        width: 85vw;
+        background-image: linear-gradient(to top, #68c0a8,#3e8574);
+        position: fixed;
+        left: -100vw;
+        top: 50px;
+        transition: all .5s;
+    }
+
+    #navbar li {
+        display: flex;
+    }
+
+    #navbar a {
+        width: 100%;
+        height: 30px;
+        color: white;
+        margin: 0;
+        text-align: center;
+        letter-spacing: 1px;
+        border: solid 1px rgba(255, 255, 255, 0.05);
+    }
+
+    #navbar a:hover {
+        text-decoration: none;
+        background-color: #ffffff4d;
+    }
+
+    #menucheck:checked~#ulmenu {
+        left: 0;
+        transition: all .5s;
+        /* visibility: visible; */
+        /* background-color: red; */
+    }
+}
+
+/* ---- Retira o delay da transição ---- */
+@media (max-width: 500px) {
+
+    #hello {
+        transition: none;
+    }
+
+    #rosquinha {
+        transition: none;
+    }
+
+    #header_l img {
+        transition: none;
+    }
+
+    #header {
+        transition: none;
+    }
+}
