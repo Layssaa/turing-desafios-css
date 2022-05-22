@@ -7,10 +7,10 @@ body {
     width: 100vw;
     height: 100vh;
     background-color:rgb(234, 234, 234);
-    background-image: url(../imgs/990860.svg);
+    background-image: url(../imgs/plant.png);
     background-repeat: no-repeat;
     background-position: bottom ;
-    background-size: 75vh 30vw;
+    background-size: 30vw 80vh;
 }
 header {
     display: flex;
