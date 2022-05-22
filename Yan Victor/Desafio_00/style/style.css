@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(234, 234, 234);
+    background-image: url(../imgs/990860.svg);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: 75vh 30vw;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 12vh;
+}
+#logopage {
+    padding: 3vw;
+}
+#navbar {
+    padding: 1vw;
+}
+.itensnavbar {
+    padding-right:2vw ;
+    color:black;
+    font-size: 1.4vw;
+}
+main {
+    display: flex;
+    height: 88vh;
+}
+#leftside {
+    display: flex;
+    width: 50vw;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14vw;
+}
+#maintext {
+    font-size: 6vw;
+}
+#leftbutton {
+    width: 14vw;
+    height: 3.5vw;
+    border-radius: 10vw;
+    border: none;
+    background-image: linear-gradient(to right, #cedae2 , #f9fcff);
+    font-weight: 600;
+    margin-bottom:4vh;
+    margin-top: 5vh;
+}
+#rightside {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    background-color: rgb(219, 212, 212);
+    margin-top: 6vw;
+}
+#rightbutton {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    border: none;
+    color: rgb(192, 185, 185);
+    box-shadow: 10px 5px 5px rgb(78, 76, 76);
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(226, 217, 217);
+}
