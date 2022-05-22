@@ -1,0 +1,141 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+  
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EDCED3;
+}
+/*  */
+header {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+}
+main {
+    display: flex;
+}
+#logo {
+    display: flex;
+    width: 50vw;
+    height: 15vh;
+}
+#logotext {
+    width: 50vw;
+    display: flex;
+    align-self: center;
+    margin-left: 10vw;
+    color: #923268;
+    font-size: 3.5vw;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+}
+#navbar {
+   display: flex;
+   width: 50vw;
+   height: 15vh;
+}
+/* Estilizando */
+a {
+    display: flex;
+    list-style: none; 
+    font-size: 2vw;
+    font-weight: 700;
+}
+.links {
+    padding: 5vh;
+    font-family: 'Oswald', sans-serif;
+    color: #923268;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#leftside {
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#donutsimg {
+    width: 35vw;
+    height:62vh;
+}
+#rightside {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+#maintext {
+    width: 25vw;
+    padding: 4vh;
+    align-self: flex-start;
+    justify-self: center;
+}
+#mainrighttext {
+    font-size: 8vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    color:#CD2D7A;
+}
+.buttons {   
+    display: flex;
+    width: 44vw;   
+    padding: 4vh 5vh 4vh;
+    justify-content: space-between;
+}
+#buttonsstyle1 {
+    color:#CD2D7A;
+    background-color: #EDCED3;
+    border-style: solid 1px;
+    border-color: #CD2D7A;
+    width: 16vw;
+    height: 4vw;
+    font-size: 2vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+#buttonsstyle2 {
+    width: 18vw;
+    height: 4vw;
+    border: none;
+    color: white;
+    font-size: 1vw;
+    font-family: 'Noto Sans', sans-serif;
+    background:linear-gradient(to right, #CD2D7A, #bd1767);
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa {
+    
+}
+.fa-google {
+    color:#CD2D7A;
+    padding: 0.3vw;
+    background-color: white;
+    margin:0.5vw;
+    border-radius: 50%;
+}
+.fa-instagram {
+    color:#CD2D7A;
+    padding: 0.3vw;
+    background-color: white;
+    margin:0.5vw;
+    border-radius: 50%;
+}
+.fa-twitter {
+    color:#CD2D7A;
+    padding: 0.3vw;
+    background-color: white;
+    margin:0.5vw;
+    border-radius: 50%;
+}
