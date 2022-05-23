@@ -1,0 +1,69 @@
+.card-row-exp {
+    margin-left: 5vh;
+    display: flex;
+    justify-content: start;
+    gap: 5vh;
+}
+
+.card-exp-1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.time-line {
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle-exp {
+  height: 10px;
+  width: 10px;
+  background-color: var(--gold);
+  border-radius: 50%;
+}
+
+.line-exp {
+    border-left-width: 2px;
+    border-left-color: var(--light);
+    border-left-style: solid;
+    height: 12vh;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.card-exp-1 p {
+    padding-top: 0.5vh;
+    color: var(--dark);
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.card-row-exp h3, .card-row-exp-1 h3 {
+    color: var(--light);
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.card-row-exp p, .card-row-exp-1 p{
+    color: var(--light);
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.card-col-education {
+    flex: 70%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: var( --back-3);
+}
+
+.card-row-exp-1 {
+    margin-top: 5vh;
+    margin-left: 5vh;
+    display: flex;
+    justify-content: start;
+    gap: 5vh;
+}
