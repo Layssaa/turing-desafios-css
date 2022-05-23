@@ -1,14 +1,5 @@
-# turing-desafios-css
-Repositório para abrir PR's das atividades dos desafios.
+# Challenges Made for Alpha EdTech
 
-## Como utilizar
+Repository for challenges I've made.
 
-Faça o fork do repositório
-
-Faça o clone na sua máquina
-
-Crie uma pasta com o seu nome
-
-Dentro da pasta com seu nome, crie uma pasta com número do desafio
-        ex: Rogério
-                -> Desafio_00
+So soon working deploy at https://ronaldosc.github.io/turing-challenges-css/
