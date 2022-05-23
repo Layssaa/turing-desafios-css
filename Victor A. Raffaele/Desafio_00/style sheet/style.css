@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-main {
+body {
 
     /*Background Details*/
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.25)), url(../imagens/back.jpg);
@@ -35,6 +35,7 @@ header{
     /*Display Details*/
     padding: 1vw;
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -61,7 +62,6 @@ nav{
     width: 35vw;
 
     /*Position Details*/
-    margin-left: 48vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -69,27 +69,26 @@ nav{
     /*Font Details*/
     font-weight: 600;
     font-size: 0.9vw;
-    line-height: 2vw;
     color: #C5C5C5;
 
 }
 
 #secMont{
+    
     /*Block Dimension*/
     width: 100vw;
-    height: 28vh;
+    height: 50vh;
 
     /*Position Details*/
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
     padding: 1vw;
-    margin-top: 20vh;
     
 }
 
 #montblanc{
-
-    /*Block Dimension*/
-    width: 100vw;
 
     /*Position Details*/
     padding: 2vw;
