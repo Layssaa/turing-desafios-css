@@ -1,0 +1,96 @@
+body{
+    background: rgba(0, 0, 0, 0.8) url(SJoséCampos.jpg);
+    background-size: cover;
+    background-blend-mode:darken;
+    
+}
+main{
+    
+    width: 1200px;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.5) url(arcodainovacao.jpeg);
+    background-blend-mode:darken;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    box-shadow: -8px  8px 8px rgba(0, 0, 0, 0.8);
+}
+#nome-cidade{
+    color: aliceblue;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%); 
+    left: 8%;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.elementos-nav{
+
+    display: inline;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    justify-content: space-between;
+    width: 240px;
+    height: 50px;
+    -webkit-transition: 0.3s ease-in;
+    font-size: 24px;
+
+}
+.elementos-nav:hover {
+    text-shadow: 0 0 4px rgb(163, 163, 163), 0 0 4px #ff0;
+    font-weight: bolder;
+    -webkit-transition: 0.3s ease-in;
+    
+    }
+p#nome-cidade{
+    font-size: 20px;
+    margin-top: -20px;
+}
+#marca-dagua{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: end ;
+}
+.elementos-clima{
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 23px;
+    padding-left: 80px;
+}
+.elementos-clima:hover{
+    text-shadow: 0 0 4px rgb(163, 163, 163), 0 0 4px #ff0;
+}
+#clima{
+    display: flex;
+    position: absolute;
+    top: 670px;
+    padding-left: 20px;
+}
+.detalhes-clima{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+}
