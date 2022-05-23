@@ -1,0 +1,200 @@
+/* below is for seeing border's box for educational purposes */
+/* * {
+  border: 1px solid grey;
+  box-sizing: border-box;
+  
+} */
+body {
+  display: flex;
+  font-size: larger;
+  font-family: 'DM Sans', sans-serif;
+  flex-direction: column;
+}
+/* configuration class for background */
+#bg-display {
+  background: url(./small_tree-removedbg.png) 50% 20%,
+    linear-gradient(to bottom, #e1ffe1, #f3f3f4);
+  background-repeat: no-repeat, space;
+  background-size: contain, cover;
+  background-attachment: fixed;
+  /* pallets: #f3f3f4 #cfd0cf #aeb1ad */
+}
+
+header {
+  width: 100vw;
+  height: 20vh;
+  gap: 40px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.more-bold {
+  font-weight: bolder;
+  font-size: 115%;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* this rule apply for line of topic of the page  */
+#topic {
+  font-size: 120%;
+  display: flex;
+  align-items: center;
+  margin: 0 35% 3% 2%;
+}
+/* these four rules below set the top right menu */
+ul {
+  list-style-type: none;
+  font-size: 8pt;
+}
+
+nav > ul {
+  font-size: 12pt;
+  padding-top: 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px 50px;
+}
+
+.menu-items {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu-items > ul {
+  padding: 5% 0%;
+  font-size: 90%;
+  text-align: center;
+}
+/* large font size for slogan */
+#mid-larger {
+  font-weight: bolder;
+  font-size: 450%;
+  text-align: left;
+  margin-right: 50vw;
+}
+
+.mid-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 300px 50px; */
+  margin-block-end: 8vw;
+  font-size: 11pt;
+}
+
+.right-box {
+  font-size: smaller;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-box {
+  margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  gap: 100px 10px;
+}
+
+aside {
+  font-size: 9pt;
+  font-weight: bolder;
+  margin-right: 2%;
+}
+
+.left-adjust {
+  margin-left: 10vw;
+  font-size: 12pt;
+}
+/* these three rules below set augmented effect transition while hovering on links */
+a {
+  color: inherit;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  font-size: 120%;
+  transition: 400ms;
+  /* overflow-clip-margin: visible; */
+}
+/* this sets a small white circle around "To" text */
+#white-circle {
+  border: none;
+  border-radius: 100%;
+  background: white;
+  box-shadow: 0 0 0.2vh 2vh white;
+}
+/* these three rules below set custom effects on player button like radial colors and mouse interactions  */
+#play-icon {
+  border: none;
+  font-size: 14pt;
+  padding: 2vw;
+  margin-right: 20%;
+  border-radius: 100%;
+  transition: 300ms;
+  box-shadow: inset 0 -1px 20px 5px #cccccc, 0 3px 20px 30px #eeeeee,
+    0 0 10px 60px rgba(245, 250, 245, 0.664);
+}
+button:hover {
+  color: darkgreen;
+}
+button:active {
+  color: lightgreen;
+}
+/* it sets writing-mode by a vertical bar from single characters (no-selectable) in a row */
+#vert-text {
+  writing-mode: vertical-lr;
+  user-select: none;
+  font-family: none;
+  font-weight: bolder;
+  font-size: 120%;
+}
+
+.bot-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 300px 50px; */
+  margin-inline-start: 4vw;
+  font-size: 11pt;
+  gap: 10px 100px;
+}
+
+#left-bot-box {
+  margin-left: 10vw;
+  display: inherit;
+  flex-direction: column;
+  justify-items: end;
+  text-align: left;
+}
+
+#right-bot-box {
+  margin-left: 10vw;
+  display: inherit;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 10vw;
+}
+/* this applies for grey lines at the bottom */
+.grey {
+  color: #aeb1ad;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+section > span {
+  font-weight: 100;
+  font-size: 85%;
+}

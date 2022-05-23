@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Content design mimic and Stylization from a UI website inspiration - an extra activity."
+    />
+    <meta name="viewport" content="user-scalable, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style-plus.css" />
+    <!-- web fonts from Google's API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+    />
+
+    <title>
+      Atividade extra — mímica de conteúdo da Interface do Usuário e Estilos
+      inspirando-se em um design web prévio
+    </title>
+  </head>
+  <!-- tabindex setted -->
+  <body id="bg-display">
+    <header id="main-container">
+      <div class="bold" id="topic" alt="botanicals">Botanicals</div>
+      <!-- main menu selectable items -->
+      <nav class="menu-items">
+        <ul>
+          <li>
+            <a href="http://" title="About us">About us</a>
+          </li>
+          <li>
+            <a href="http://" title="Clean air">Clean air</a>
+          </li>
+          <li>
+            <a href="http://" title="Products">Products</a>
+          </li>
+          <li>
+            <a href="http://" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- slogan theme, a link for webshop area and an interactive player button -->
+    <section class="mid-container">
+      <div>
+        <span class="bold left-box" id="mid-larger" alt="clean air in your home"
+          >Clean air <br />in your <br />home.</span
+        >
+        <br />
+        <p class="bold left-adjust">
+          <a
+            href="https://www.leafenvy.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Lifenvy small plants webshop"
+          >
+            <span id="white-circle">To</span> the webshop
+            <span class="more-bold">&nbsp;&rarr;</span>
+          </a>
+        </p>
+      </div>
+      <!-- interactive media controls template -->
+      <aside class="right-box" alt="play some music">
+        <button name="playerButton" id="play-icon">►</button>
+        <ul>
+          <li>01</li>
+          <li id="vert-text">&nbsp;&nbsp;——————————&nbsp;&nbsp;</li>
+          <li>04</li>
+        </ul>
+      </aside>
+    </section>
+    <!-- footer page area -->
+    <section class="bot-container">
+      <div id="left-bot-box">
+        <p class="bold">Why plants in your home?</p>
+        <span class="grey"> Plants provide clean air for you.</span>
+      </div>
+      <div id="right-bot-box">
+        <p class="bold">We have the best plants!</p>
+        <span class="grey"> Check out our plants in the shop.</span>
+      </div>
+    </section>
+    <!-- audio plays hidden in background -->
+    <audio id="audio-element" autoplay>
+      <source
+        src="https://cdn.videvo.net/videvo_files/audio/premium/audio0140/watermarked/OrchestraBells%206027_51_2_preview.mp3"
+        data-src="https://cdn.videvo.net/videvo_files/audio/premium/audio0140/watermarked/OrchestraBells%206027_51_2_preview.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+    <!-- script for set half volume in background audio when load page -->
+    <script>
+      var audio = document.getElementById('audio-element')
+      audio.volume = 0.5
+    </script>
+  </body>
+</html>
