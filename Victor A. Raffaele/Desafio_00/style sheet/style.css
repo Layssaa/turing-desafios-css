@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    /*Background Details*/
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.25)), url(../imagens/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    overflow-x: hidden;
+
+    /*Block Dimension*/
+    width: 100vw;
+    height: 100vh;
+
+    /*Font Details*/
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-family: 'Inter', sans-serif;
+
+}
+
+header{
+
+    /*Block Dimension*/
+    height: 13vh;
+    width: 100vw;
+
+    /*Display Details*/
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#headerSummit{
+
+    /*Block Dimension*/
+    width: 15vw;
+
+    /*Position Details*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*Font Details*/
+    font-size: 2vw;
+    line-height: 3rem;
+    letter-spacing: 0.15em;
+
+}
+
+nav{
+    
+    /*Block Dimension*/
+    width: 35vw;
+
+    /*Position Details*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /*Font Details*/
+    font-weight: 600;
+    font-size: 0.9vw;
+    color: #C5C5C5;
+
+}
+
+#secMont{
+    
+    /*Block Dimension*/
+    width: 100vw;
+    height: 50vh;
+
+    /*Position Details*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 1vw;
+    
+}
+
+#montblanc{
+
+    /*Position Details*/
+    padding: 2vw;
+    margin-top: 1vh;
+    margin-left: 2vw;
+
+    /*Font Details*/
+    font-size: 7vw;
+    line-height: 13vh;
+    font-weight: 500;
+
+}
+
+#line{
+
+    /*Block Dimension*/
+    width: 8vw;
+    height: 0vh;
+    /*Line Dimension*/
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+
+    /*Position Details*/
+    margin-left: 4vw;
+
+}
+
+#explore{
+
+    /*Block Dimension*/
+    width: 20vw;
+
+    /*Position Details*/
+    margin-left: 14vw;
+
+    /*Font Details*/
+    font-size: 1.8vw;
+
+}
+
+#divInfo{
+
+    /*Position Details*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#secInfo{
+
+    /*Block Dimension*/
+    width: 50vw;
+
+    /*Position Details*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3vw;
+    margin-top: 7vw;
+
+    /*Font Details*/
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    line-height: 4vh;
+
+}
+
+aside::first-line{
+
+    /*Font Color*/
+    color: #C5C5C5;
+
+}
+
+#secLocal{
+
+    /*Position Details*/
+    display: inline-block;
+    margin-top: 6vh;
+    padding: 2vw;
+
+    /*Font Detail*/
+    font-size: 1.5vw;
+
+}
