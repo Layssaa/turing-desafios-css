@@ -1,0 +1,33 @@
+
+@media only screen and (max-width: 600px) {
+    
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--bg-1);
+        height: 18vh;
+    }
+
+    .contact {
+        margin-left: 0vh;
+        flex: 0;
+        margin-bottom: 1.5vh;
+    }
+
+    .line {
+        border-bottom: 2px solid rgb(236, 236, 236);
+        width: 100vw;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+    }
+
+    .search-bar {
+        width:400px;
+        margin: 0;
+    }
+
+    form.example input[type=text], form.example button {
+        height: 6vh;
+    }
+}
