@@ -1,0 +1,144 @@
+
+.content-line {
+    margin: 8vh auto 0 auto;
+    border-top: 1px solid black;
+    width: 90%;
+}
+
+.flex-col-1{
+    margin: 20vh;
+}
+
+.flex-row-content{
+    margin: 8vh;
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.flex-row-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content h2 {
+    font-size: 26px;
+    font-family: var(--font-1);
+    font-weight: bold;
+}
+
+.content p{
+    font-size: 22px;
+    font-family: var(--font-1);
+}
+
+.about {
+    background-color: var(--bg-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 20vw 15vh 20vw;
+
+}
+
+.about h2{
+    font-size: 38px;
+    font-family: var(--font-1);
+    font-weight: bold;
+}
+
+.about p{
+    margin-top: 5vh;
+    font-size: 26px;
+    font-family: var(--font-1);
+    text-align: center;
+}
+
+.flex-row-letters {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vh;
+    background-color: #e8e6e6;
+}
+
+.flex-col-payments {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.flex-col-letters {
+    margin-top: 5vh;
+    height: 30vh;
+    display: flex;
+    align-items: srtart;
+    flex-direction: column;
+}
+
+.flex-col-letters h2 {
+    font-family: var(--font-1);
+    font-size: 18px;
+}
+
+.flex-col-letters ul {
+    margin-top: 2vh;
+}
+
+.flex-col-letters li {
+    list-style-type: none;
+    padding: 0.5vh 0;
+}
+
+.flex-col-letters li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-family: var(--font-1);
+}
+
+.flex-col-letters p {
+    margin-top: 5vh;
+}
+
+form.footer input[type=text] {
+    padding: 1vh;
+    font-size: 17px;
+    float: left;
+    width: 100%;
+    border: 1px solid 1px;
+    background-color: #e8e6e6;
+    margin: 2vh 0;
+}
+
+form.footer button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border: 0;
+}
+
+.flex-row-security {
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+    justify-content: start;
+}
+
+.flex-row-payments {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vh;
+    margin: 1vh 0;
+    height: 3vh;
+}
+
+.flex-col-payments h2 {
+    font-family: var(--font-1);
+    font-size: 18px;
+    margin: 2vh 0;
+}
