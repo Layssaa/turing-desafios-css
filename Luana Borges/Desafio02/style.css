@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Quicksand:wght@300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+#header-1{
+    display: flex;
+    height: 6vh;
+    width: 100vw;
+    background-color: rgb(231, 229, 229);
+    font-size: 0.75rem;
+}
+
+#contact-header{
+    display: flex;
+    padding-left: 2vw;
+}
+
+#whats{
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.75rem;
+
+}
+
+#whats img{
+    width: 25px;
+    height: 25px;
+
+}
+
+#doubt{
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.75rem;
+}
+
+#doubt img{
+    width: 25px;
+    height: 25px;
+
+}
+
+#search{
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+    padding-right: 5vw;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.75rem;
+}
+
+#lupa-container{
+    display: flex;
+}
+
+#lupa{
+    width: 33.5px;
+    height: 33.5px;
+    background-color: white;
+}
+
+#search input[type=text] {
+    border:none;
+    height: 3.5vh;
+    font-size: 0.75rem;
+}
+
+#header-2{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+} 
+
+#header2-part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left: 7vh;
+    width: 15vw;
+   
+}
+
+#header2-part1 h1{
+    font-size: 2.5rem;
+}
+
+#header2-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    width: 60vw;
+}
+
+#header2-part2 li:hover{
+    color:gray;
+}
+
+#header-final{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20vw;
+}
+
+#header2-part3{
+    display: flex;
+    justify-content: space-around;
+    width: 4vw;
+}
+
+
+#list1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh
+}
+
+#list2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0;
+}
+
+#list3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0;
+}
+
+.small-hr{
+    width: 20px;
+    padding: 5px 0 5px;
+    height: 5px;
+}
+
+
+.value{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.value h2{
+    font-size: 1rem;
+}
+
+#fort-sale{
+    display: flex;
+    gap: 3px;
+}
+
+.image{
+    background-image: url('https://static.wixstatic.com/media/45d10e_dd5d9543998c4c0f9ecf120fac20ffb0~mv2.jpg/v1/fill/w_750,h_750,al_c,q_85/45d10e_dd5d9543998c4c0f9ecf120fac20ffb0~mv2.webp');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:400px;
+    height: 400px;
+}
+
+.image:hover{
+    background-size:auto;
+    background-position: -185px -247px;
+    background-repeat: no-repeat;
+    width:400px;
+    height: 400px;
+}
+
+span{
+    padding: 3.5px 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+#info{
+    display: flex;
+    justify-content: space-around;
+   height: 25vh;
+}
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#about{
+    background-color: rgb(231, 229, 229);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#format-about{
+    width: 35%;
+    text-align: center;
+}
+
+#format-about h2{
+    font-size: 2rem;
+}
+
+#format-about p{
+    font-size: 1.5rem;
+
+}
+
+#footer1{
+background-color:rgb(218, 214, 214);
+height: 40vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 0.75rem;
+}
+
+#sec{
+    display: flex;
+    width: 16vw;
+    gap:0.5vw;
+}
+
+#payment-photo{
+    background-image: url('https://static.wixstatic.com/media/8a3e6d_402c48e73619409782c860cffbe69c1e~mv2.png/v1/crop/x_45,y_45,w_1329,h_471/fill/w_200,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Me%CC%81todos%20de%20pagamentos%20aceitos.png');
+    width: 10vw;
+    height: 7vh;
+}
+
+#news{
+    width: 16vw;
+}
+
+#news p{
+font-size: 0.75rem;
+}
+
+#format-footer{
+    width: 10vw;
+    margin-bottom: 3vh;;
+
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#input input[type=email] {
+    border:solid 2px;;
+    height: 3.5vh;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+
+
+
+
+#footer2{
+    background-color: black;
+    height: 25vh;
+    color: white;
+    text-align: center;
+    padding-top: 7vh;
+}
+
+#footer2 p{
+    font-size: 0.75rem;
+}
+
+
+
