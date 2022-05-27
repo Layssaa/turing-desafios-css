@@ -1,0 +1,57 @@
+
+.about {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about h2 {
+    font-family: var(--font-1);
+    color: var(--color-1);
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+
+.about p {
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.about-row-flex {
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    gap: 150px
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h2 {
+    font-family: var(--font-1);
+    color: var(--color-1);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.card img {
+    width: 70px;
+    padding-bottom: 25px;
+}
+
+.btn-veja-mais {
+    margin-top: 25px;
+    border: none;
+    background-color: var(--color-1);
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    width: 130px;
+}
