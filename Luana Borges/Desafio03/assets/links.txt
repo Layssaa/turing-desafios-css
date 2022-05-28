@@ -1,0 +1,38 @@
+fotos animais
+
+https://static.wixstatic.com/media/3b1f25_8d9f54c9de204bbabc47ab23e795a727.jpeg/v1/fill/w_313,h_234,al_c,q_80,usm_0.66_1.00_0.01/3b1f25_8d9f54c9de204bbabc47ab23e795a727.jpeg
+
+https://static.wixstatic.com/media/3b1f25_2d6313f7f32541f28896137159faa4f8.jpg/v1/fill/w_313,h_234,al_c,q_80,usm_0.66_1.00_0.01/3b1f25_2d6313f7f32541f28896137159faa4f8.jpg
+
+https://static.wixstatic.com/media/3b1f25_c01b61c5f7de4395b2277bb9d6008d7c.jpg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_c01b61c5f7de4395b2277bb9d6008d7c.jpg
+
+https://static.wixstatic.com/media/3b1f25_7654c70aac92434baaeacadbe80d1c95.jpg/v1/fill/w_847,h_565,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_7654c70aac92434baaeacadbe80d1c95.jpg
+
+https://static.wixstatic.com/media/3b1f25_ccb3098ae0ec451084f7ef0c9b824fe2.jpg/v1/fill/w_851,h_565,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_ccb3098ae0ec451084f7ef0c9b824fe2.jpg
+
+https://static.wixstatic.com/media/3b1f25_603086b43e1243938a7c6acda7b090de.jpg/v1/fill/w_754,h_565,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_603086b43e1243938a7c6acda7b090de.jpg
+
+https://static.wixstatic.com/media/3b1f25_b3429d4509e04253aba2e2212f65d39d.jpeg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_b3429d4509e04253aba2e2212f65d39d.jpeg
+
+https://static.wixstatic.com/media/3b1f25_1a450a645ffc4e8b95b92b2eac777ddb.jpg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_1a450a645ffc4e8b95b92b2eac777ddb.jpg
+
+https://static.wixstatic.com/media/3b1f25_6eaecd35433242f5b7cf10c60838b2d8.jpeg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_6eaecd35433242f5b7cf10c60838b2d8.jpeg
+
+https://static.wixstatic.com/media/3b1f25_5af835fc3ab34c5d9452b60ae311febc.jpg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_5af835fc3ab34c5d9452b60ae311febc.jpg
+
+https://static.wixstatic.com/media/3b1f25_fdebbf7dfbf14ccea1c2a3e730bb3e4a.jpeg/v1/fill/w_1006,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_fdebbf7dfbf14ccea1c2a3e730bb3e4a.jpeg
+
+https://static.wixstatic.com/media/3b1f25_53eb85a5849b45d4aee70135360bc3b3.jpeg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_53eb85a5849b45d4aee70135360bc3b3.jpeg
+
+
+
+<img src="https://static.wixstatic.com/media/8a3e6d_a0708d8083cb469db7a147322b41a664~mv2.jpg/v1/fill/w_1782,h_1200,q_90/8a3e6d_a0708d8083cb469db7a147322b41a664~mv2.webp" width="50%">
+        <img src="https://static.wixstatic.com/media/8a3e6d_38b8efd0cfff4685ab535766d53a425f~mv2.jpg/v1/fill/w_1782,h_1200,q_90/8a3e6d_38b8efd0cfff4685ab535766d53a425f~mv2.webp">
+        <img src="https://static.wixstatic.com/media/8a3e6d_e25dc3b903b84b2097d84270ffe53d06~mv2.jpg/v1/fill/w_1782,h_1200,q_90/8a3e6d_e25dc3b903b84b2097d84270ffe53d06~mv2.webp">
+        
+
+
+<img src="./assets/doguinho.png">
+            <img src="./assets/gatinho.png">
+            <img src="./assets/doguinho3.png">
+            <img src="./assets/doguinho.png">
