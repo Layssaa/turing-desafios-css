@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-1: Clarendon-w1;
+    --font-2: Avenir;
+    --font-3: Enriqueta;
+    --font-4: Sacramento;
+    --color-1: #512C1D;
+    --color-2: #2d1910;
+    --width-form: 500px;
+}
+
+@font-face {
+    font-family: Clarendon-w1;
+    src: url(/assets/font/Clarendon\ W01\ Medium\ V2.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(/assets/font/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: Enriqueta;
+    src: url(/assets/font/Enriqueta-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sacramento;
+    src: url(/assets/font/Sacramento-Regular.ttf);
+}

@@ -1,0 +1,46 @@
+
+.col-3 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.flex-col-1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.flex-col-1 h3 {
+    font-family: var(--font-4);
+    font-size: 45px;
+    color: var(--color-1);
+    font-weight: lighter;
+}
+
+.flex-col-1 h2 {
+    padding-bottom: 40px;
+    font-family: var(--font-1);
+    font-size: 36px;
+    color: var(--color-1);
+    font-weight: lighter;
+}
+
+.flex-col-1 p {
+    font-family: var(--font-3);
+    font-size: 17px;
+    color: var(--color-1);
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+.flex-col-1 a {
+    font-family: var(--font-3);
+    font-size: 18px;
+    color: var(--color-1);
+    font-weight: lighter;
+    line-height: 25px;
+    padding-top: 280px;
+}
