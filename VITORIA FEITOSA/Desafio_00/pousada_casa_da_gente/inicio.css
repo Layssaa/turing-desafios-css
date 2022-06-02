@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: auto;
+
+    background-image: url(./assets/images/madeira.png);
+    background-color: hsla(10, 20%, 30%, 1); /*Atividade CSS - M7 Q2 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+
+    margin-bottom: 0%;
+    margin: 0%;
+
+    color: #FFFAF1;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+
+    overflow: hidden;
+}
+
+header a {
+    color: #FFFAF1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2rem;
+    padding-right: 60%;
+}
+
+body{
+    width: auto;
+    margin: 0%;
+    
+    font-family: 'DM Sans';
+}
+
+
+.capa{
+    width: auto;
+    height: 35rem;
+    background-image: linear-gradient(rgba(33, 61, 32, 0.459),rgba(0, 0, 0, 0.274) 100%), url(https://github.com/vtfeitosa/pousada_casa_da_gente/blob/master/assets/images/capa.jpg?raw=true);
+    /*Atividade CSS - M7 Q2 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    
+    margin-top: 0%;
+    padding-left: 8rem;
+}
+
+.placa {
+    width: auto;
+    height: 26rem;
+
+    margin-top: 0%;
+
+}
+
+.selo {
+    height: 8rem;
+
+    text-align: right;
+    margin: 0%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #F99E47; /*Atividade CSS - M7 Q2 */
+    color: #FFFAF1;
+
+    margin: 0%;
+
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+footer a {
+    color: #FFFAF1;
+  
+}
+
+footer h1 {
+    margin: 0%;
+}
