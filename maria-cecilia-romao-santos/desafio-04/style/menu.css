@@ -1,0 +1,65 @@
+/*menu*/
+#menu {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 55, 61, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/images/menu-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*menu-content*/
+#menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-content h1 {
+    font-size: 1.85vw;
+    font-weight: 400;
+    padding-bottom: 2vh;
+}
+
+#menu-content span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    width: 29vw;
+    text-align: center;
+    line-height: 4vh;
+    padding-bottom: 5vh;
+}
+
+/*menu button*/
+#menu-button {
+    width: 14.81vw;
+    height: 8.2vh;
+    text-transform: uppercase;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    transition: 0.3s all;
+    cursor: pointer;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu-button:hover {
+    background-color: white;
+    color:rgba(0, 55, 61);
+}

@@ -1,0 +1,111 @@
+/*header*/
+#header {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+    transition: 0.3s all;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 55, 61);
+}
+
+/*logo*/
+#logo-container {
+    width: 7.25vw;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25vw;
+}
+
+#logo-container img {
+    height: auto;
+    width: 4.8vw;
+    cursor: pointer;
+}
+
+/*name + login section*/
+#name-login {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-top: none;
+    flex-grow: 1;
+    align-items: center;
+    padding: 0 2.6vw;
+}
+
+#name-login h1 {
+    font-weight: 400;
+    font-size: 1.75vw;
+    cursor: pointer;
+}
+
+#login {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    gap: 1vw;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+
+#login:hover {
+    color: rgba(255, 255, 255, 0.587);
+}
+
+#login img {
+    height: auto;
+    width: 1.91vw;
+}
+
+/*order*/
+#order {
+    border-bottom: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14.8vw;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+/*reservation*/
+#reservation {
+    border: 1px solid white;
+    border-top: none;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14.8vw;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+#order:hover, #reservation:hover {
+    background-color: white;
+    color:rgba(0, 55, 61);
+}
+
+/*sandwich menu*/
+#sandwich-menu {
+    width: 8.48vw;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sandwich-menu img {
+    height: auto;
+    width: 3.4vw;
+    cursor: pointer;
+}

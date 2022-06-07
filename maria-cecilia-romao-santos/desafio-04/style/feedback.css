@@ -1,0 +1,66 @@
+/*feedback*/
+#feedback-container {
+    background-color: rgba(0, 55, 61);
+    width: 100vw;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: start;
+    padding-left: 7.25vw;
+}
+
+#feedback {
+    width: 84.27vw;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+/*feedback header*/
+#feedback-header {
+    display: flex;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9.5vh 4.1vw;
+}
+
+#feedback-header h1 {
+    font-size: 1.85vw;
+    font-weight: 400;
+}
+
+#feedback-header img {
+    height: auto;
+    width: 10vw;
+    height: 12vh;
+}
+
+/*feedback clients*/
+#feedback-clients {
+    display: flex;
+}
+
+#feedback-clients section {
+    width: 28.09vw;
+    height: 24vw;
+    padding: 4.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#feedback-clients section q {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    line-height: 4vh;
+}
+
+#feedback-clients section span {
+    font-size: 1vw;
+}
+
+.testimonial {
+    border-right: 1px solid white;
+}

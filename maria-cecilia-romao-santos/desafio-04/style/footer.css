@@ -1,0 +1,158 @@
+/*footer*/
+#footer {
+    background-color: rgba(0, 55, 61);
+    width: 100vw;
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/*footer title*/
+#footer-title-container{
+    width: 100vw;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: start;
+    padding-left: 7.25vw;
+}
+
+#footer-title {
+    width: 84.27vw;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6vh 0 7.5vh;
+}
+
+#footer-title img {
+    height: auto;
+    width: 5vw;
+    cursor: pointer;
+}
+
+#footer-title h1 {
+    font-size: 1.85vw;
+    font-weight: 400;
+    padding: 0.5vh 0 1.5vh;
+}
+
+#footer-title p {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.3vw;
+}
+
+/*contact*/
+#contact {
+    width: 84.27vw;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    margin-left: 7.25vw;
+}
+
+/*newsletter*/
+#newsletter {
+    width: 50%;
+    height: 47vh;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5.8vh 5vw 18vh;
+}
+
+#newsletter p {
+    font-size: 1.5vw;
+    font-weight: 400; 
+    line-height: 4vh;
+}
+
+#newsletter form {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+}
+
+#email {
+    height: 6.4vh;
+    width: 21.19vw;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#submit-email-button {
+    width: 9.6vw;
+    height: 6.4vh;
+    text-transform: uppercase;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    transition: 0.3s all;
+    cursor: pointer;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#submit-email-button:hover {
+    background-color: white;
+    color:rgba(0, 55, 61);
+}
+
+/*info*/
+#info {
+    width: 50%;
+    height: 47vh;
+    padding: 5.8vh 7vw 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#socials {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vw;
+}
+
+#socials span, #final-section u {
+    cursor: pointer;
+}
+
+#footer-address {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    gap: 1vh;
+}
+
+/*final section*/
+#final-section-container {
+    width: 100vw;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: start;
+    padding-left: 7.25vw;
+}
+
+#final-section {
+    width: 84.27vw;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    font-size: 0.9vw;
+    padding: 6vh 0;
+}

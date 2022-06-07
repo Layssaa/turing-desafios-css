@@ -1,0 +1,34 @@
+/*geral config*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body config*/
+body {
+    font-family: 'Inknut Antiqua', serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+/*transition*/
+#transition {
+    width: 100vw;
+    height: 98vh;
+    background-color: rgba(0, 55, 61, 0.3);
+}
+
+#transition::before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100vw;
+    height: 98vh;
+    background-image: url(../assets/images/transition.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+

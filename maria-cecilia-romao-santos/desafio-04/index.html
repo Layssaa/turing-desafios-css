@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Document</title>
+
+        <!--Style-->
+        <link rel="stylesheet" href="./style/index.css">
+        <link rel="stylesheet" href="./style/header.css">
+        <link rel="stylesheet" href="./style/home.css">
+        <link rel="stylesheet" href="./style/booking.css">
+        <link rel="stylesheet" href="./style/events.css">
+        <link rel="stylesheet" href="./style/menu.css">
+        <link rel="stylesheet" href="./style/imediate-book.css">
+        <link rel="stylesheet" href="./style/feedback.css">
+        <link rel="stylesheet" href="./style/footer.css">
+
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!--header-->
+        <header id="header">
+            <figure id="logo-container">
+                <img src="./assets/images/logo.svg" alt="logo">
+            </figure>
+            <section id="name-login">
+                <h1>Yayoi</h1>
+                <figure id="login">
+                    <img src="./assets/images/user.svg" alt="user-icon">
+                    <figcaption>Log In</figcaption>
+                </figure>
+            </section>
+            <section id="order">
+                <p>ORDER ONLINE</p>
+            </section>
+            <section id="reservation">
+                <p>RESERVATION</p>
+            </section>
+            <figure id="sandwich-menu">
+                <img src="./assets/images/menu-sandwich.svg" alt="sandwich-menu">
+            </figure>
+        </header>
+
+        <!--main-->
+        <main id="main">
+
+            <!--home-->
+            <section id="home">
+                <section id="home-content">
+                    <img src="./assets/images/fish-container.svg" alt="fish-image">
+                    <h1>Welcome to <br /> Yayoi</h1>
+                    <p>contemporary japanese cuisine</p>
+                </section>
+            </section>
+
+            <!--booking-->
+            <section id="booking-container">
+                <section id="booking">
+                    <figure id="booking-icons-container">
+                        <img src="./assets/images/house-fish-fan.svg" alt="restaurant icons">
+                    </figure>
+                    <p id="booking-text">
+                        Inspired by traditional flavors, Yayoi offers a fresh, creative and respectful interpretation of Japanese cuisine.
+                    </p>
+                    <button id="booking-button">book a table</button>
+                    <figure id="booking-image-container">
+                        <img src="./assets/images/book-image.webp" alt="sushi plate">
+                        <img src="./assets/images/bottom-icon.svg" alt="bottom icon">
+                    </figure>
+                </section>
+            </section>
+            
+            <!--events-->
+            <section id="events-container">
+                <section id="events">
+                    <figure id="events-image-container">
+                        <img src="./assets/images/events-image.webp" alt="restaurant image">
+                    </figure>
+                    <section id="text-events">
+                        <figure id="events-icons-container">
+                            <img src="./assets/images/events-icons.svg" alt="events icons">
+                        </figure>
+                        <h1>Your Perfect Destination for Any Occasion</h1>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                        <button id="events-button">private events</button>
+                        <section id="address">
+                            <span>Address</span>
+                            <section>
+                                <span>500 Terry Francois Street</span>
+                                <span>San Francisco, CA 94158</span>
+                            </section>
+                        </section>
+                        <section id="hours">
+                            <span>Opening <br /> Hours</span>
+                            <section>
+                                <span>Mon - Fri: 8am - 8pm</span>
+                                <span>Saturday: 9am - 7pm</span>
+                                <span>Sunday: 9am - 8pm</span>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <!--menu-->
+            <section id="menu">
+                <section id="menu-content">
+                    <h2>Catch of the Day From the Japanese fish market</h2>
+                    <span>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</span>
+                    <button id="menu-button">our menu</button>
+                </section>
+            </section>
+
+            <!--imediate book-->
+            <section id="imediate-book-container">
+                <section id="imediate-book">
+                    <section id="imediate-book-text">
+                        <figure id="imediate-book-icons-container">
+                            <img src="./assets/images/imediate-book.svg" alt="events icons">
+                        </figure>
+                        <h1>Book a Table</h1>
+                        <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                        <form id="imediate-book-form" action="/registro" method="post">
+                            <input class="bar" type="date" name="date-reserve" id="date" placeholder="Date">
+                            <select name="time" id="time">
+                                <option value="time">Time</option>
+                            </select>
+                            <select name="Party-size" id="Party-size">
+                                <option value="Party-size">Party size</option>
+                            </select>
+                            <button id="imediate-book-button">Book Now</button>
+                        </form>
+                    </section>
+                    <figure id="imediate-book-image-container">    
+                        <img src="./assets/images/book-now.webp" alt="restaurant plate image">
+                    </figure>
+                </section>
+            </section>
+
+            <!--feedback-->
+            <section id="feedback-container">
+                <section id="feedback">
+                    <header id="feedback-header">   
+                        <h1>What Our Diners Say About Us</h1>
+                        <img src="./assets/images/house-fish-fan.svg" alt="restaurant icons">
+                    </header>
+                    <section id="feedback-clients">
+                        <section class="testimonial">
+                            <q>I'm a testimonial. Click to edit me and add text that says something nice about you and your services.</q>
+                            <span>Fay Salinas</span>
+                        </section>
+                        <section class="testimonial">
+                            <q>I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.</q>
+                            <span>Erika Huff</span>
+                        </section>
+                        <section id="last-feedback">
+                            <q>I'm a testimonial. Click to edit me and add text that says something nice about you and your services.</q>
+                            <span>Zakir Gregory</span>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </main>
+
+        <!--transtion-->
+        <figure id="transition"></figure>
+
+        <!--footer-->
+        <footer id="footer">
+            <section id="footer-title-container">
+                <section id="footer-title">
+                    <img src="./assets/images/logo.svg" alt="logo">
+                    <h1>Yayoi</h1>
+                    <p>CONTEMPORARY JAPANESE CUISINE</p>
+                </section>
+            </section>
+            <section id="contact">
+                <section id="newsletter">
+                    <p>Subscribe to our newsletter for updates and special deals.</p>
+                    <form action="/registro" method="post">
+                        <label for="email">Email *</label> <br />
+                        <input class="barra" type="email" name="usuario-email" id="email" required />
+                        <button id="submit-email-button">submit</button>
+                    </form>
+                </section>
+                <section id="info">
+                    <section id="socials">
+                        <span>Instagram</span>
+                        <span>Facebook</span>
+                        <span>Tripadvisor</span>
+                    </section>
+                    <section id="footer-address">
+                        <span>500 Terry Francois Street,</span>
+                        <span>San Francisco</span>
+                        <span>123-456-7890</span>
+                        <span>info@mysite.com</span>
+                    </section>
+                </section>
+            </section>
+        </footer>
+
+        <!--script-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(window).scroll(function() {
+                var x = $(this).scrollTop();
+                if(x<200){
+                    $('#header').css('background', 'transparent' );
+                }
+                else{
+                    $('#header').css('background', 'rgba(0, 55, 61)' );
+                }
+            });
+        </script>
+    </body>
+</html>
