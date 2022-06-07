@@ -1,0 +1,83 @@
+#container-photos {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.photos {
+    display: flex;
+    /* height: 50%; */
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box-photo {
+    width: 16.66%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.box-photo:hover {
+    -webkit-box-shadow: inset 10px 10px 300px 200px rgba(255, 255, 255, 0.69);
+    -moz-box-shadow: inset 10px 10px 300px 200px rgba(255, 255, 255, 0.69);
+    box-shadow: inset 10px 10px 300px 200px rgba(255, 255, 255, 0.69);
+}
+
+#photo-01 {
+    background-image: url('../assets/pet-01.jpeg');  
+}
+
+#photo-02 {
+    background-image: url('../assets/pet-02.jpg');
+}
+
+#photo-03 {
+    background-image: url('../assets/pet-03.jpg');
+}
+
+#photo-04 {
+    background-image: url('../assets/pet-04.jpg');
+}
+
+#photo-05 {
+    background-image: url('../assets/pet-05.jpg');
+}
+
+#photo-06 {
+    background-image: url('../assets/pet-06.jpg');
+}
+
+#photo-07 {
+    background-image: url('../assets/pet-07.jpeg');
+}
+
+#photo-08 {
+    background-image: url('../assets/pet-08.jpg');
+}
+
+#photo-09 {
+    background-image: url('../assets/pet-09.jpeg');
+}
+
+#photo-10 {
+    background-image: url('../assets/pet-10.jpg');
+}
+
+#photo-11 {
+    background-image: url('../assets/pet-11.jpeg');
+}
+
+#photo-12 {
+    background-image: url('../assets/pet-12.jpeg');
+}
+
+@media(max-width: 800px) {
+    .box-photo {
+        width: 25%;
+    }
+}

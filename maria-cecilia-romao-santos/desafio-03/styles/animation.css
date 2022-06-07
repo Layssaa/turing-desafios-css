@@ -1,0 +1,9 @@
+@keyframes carrosel {
+    0% {margin-left: 0;}
+    28% {margin-left: 0;}
+    33% {margin-left: -100%;}
+    61% {margin-left: -100%;}
+    66% {margin-left: -200%;}
+    95% {margin-left: -200%;}
+    100% {margin-left: -300%;}    
+}
