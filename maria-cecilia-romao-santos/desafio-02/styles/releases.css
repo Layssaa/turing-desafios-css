@@ -1,0 +1,53 @@
+.container-releases {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+#box-releases-left {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: #ffffff;
+    line-height: 70px;
+    font-size: 25pt;
+}
+
+#box-releases-left a {
+    color: #ffffff;
+}
+
+#purchase {
+    font-size: 19pt;
+}
+
+#box-releases-right {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-image: url('../assets/background-releases.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 800px) {
+    #box-releases-left {
+        width: 100%;
+        height: 80vh;
+        font-size: 8vw;
+    }
+    .container-releases {
+        height: auto;
+    }
+    #box-releases-right {
+        width: 100%;
+        height: 100vw;
+        background-size: 100vw;
+    }
+}

@@ -1,0 +1,72 @@
+.top-header {
+    display: flex;
+    position: fixed;
+    height: 100px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 20, 20, 0.8);
+    color: #ffffff;
+}
+
+.container-header {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #A29C9C;
+}
+
+.box-header-left h1 {
+    color: #ffffff;
+}
+
+#icon-menu {
+    display: none;
+    position: absolute;
+    left: 80%;
+    bottom: 35%;
+    width: 40px;
+
+}
+
+.box-header-left span {
+    color: #A29C9C;
+}
+
+.box-header-right {
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.box-header-right a:active {
+    color: #ffffff;
+}
+
+.box-header-right a:hover {
+    color: #ffffff;
+}
+
+#icon-car {
+    width: 30px;
+}
+
+@media(max-width: 800px) {
+    .top-header {
+        position: absolute;
+        background-color: black;
+    }
+    .box-header-right {
+        display: none;
+    }
+    #icon-menu {
+        display: block;
+    }
+}

@@ -1,0 +1,119 @@
+.container-form {
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    color: #ffffff;
+}
+
+.box-form {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+#box-form-left {
+    display: flex;
+    width: 80%;
+    height: auto;
+    align-items: center;    
+}
+
+#box-form-left form {
+    display: flex;
+    padding: 60px;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.input-form {
+    height: 45px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 20px;
+    margin: 2px;
+}
+
+::-webkit-input-placeholder {
+    color: #8f8f8f;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#textarea-form {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    margin: 2px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#form-buttom {
+    margin-top: 2px;  
+    width: 130px;
+    height: 48px;
+    border: 2px solid #ffffff;
+    background-color: black;
+    color: #ffffff;
+    font-size: 16pt;
+}
+
+#contact-form {
+    display: flex;    
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#abstract-contact {
+    width: 80%;
+    padding-left: 100px;
+    margin-top: -60px;
+}
+
+#abstract-contact h1 {
+    font-size: 40pt;
+    line-height: 150px;
+}
+
+#abstract-contact p {
+    font-size: 15pt;
+    line-height: 25px;
+}
+
+#abstract-contact a {
+    font-size: 13pt;
+    color: #ffffff;    
+}
+
+@media(max-width: 800px) {
+    .box-form {
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .container-form {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #box-form-left {
+        width: 100%;
+    }
+    #box-form-left form {
+        padding: 50px;        
+    }
+    #abstract-contact {
+        height: auto;
+        width: 100%;
+        padding: 50px;
+        margin-top: 0;
+    }
+    #contact-form {
+        height: auto;
+    }
+    #abstract-contact h1 {
+        font-size: 12vw;
+    }
+}
