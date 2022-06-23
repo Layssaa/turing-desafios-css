@@ -1,0 +1,23 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-1: #92d4e8; 
+    --font-1: Chelsea-Market;
+    --font-2: Proxima-Nova;
+}
+
+@font-face {
+    font-family: Chelsea-Market;
+    src: url("/assets/fonts/ChelseaMarket-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nova-Proxima, serif;
+    src: url("/assets/fonts/Proxima\ N\ W01\ Reg.ttf");
+}
+

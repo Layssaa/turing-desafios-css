@@ -1,0 +1,39 @@
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-col {
+    flex: 70%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2e2e;
+}
+
+.card {
+    margin-top: 5vh;
+    margin-left: 2vw;
+    display: flex;
+    width: 25vw;
+    gap: 20px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.card span, .card-skills span {
+    color: #e0a80d;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+.card p {
+    color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.0rem;
+    margin-top: 15px;
+}

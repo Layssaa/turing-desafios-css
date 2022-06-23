@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Avenir-lt;
+    src: url("/font/Avenir/AvenirLTProBook.otf");
+}
+
+@font-face {
+    font-family: Avenir-h;
+    src: url("/font/Avenir/Avenir\ LT\ W01\ 85\ Heavy.woff.ttf");
+}
+
+:root {
+    --bg-1: whitesmoke;
+    --font-1: Avenir-lt;
+    --font-2: Avenir-h;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+
+.flex-row {
+    width: 100vw;
+    display: flex;
+    height: 8vh;
+    background-color: var(--bg-1);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-col .flex-row:nth-child(2) {
+    background-color: white;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    width:300px;
+    margin-right: 10vh;
+}
+
+.search-bar :hover {
+    border-bottom: 1px solid black;
+}
+
+.contact {
+    align-items: center;
+    margin-left: 5vh;
+    display: flex;
+    flex: 60%;
+}
+
+.contact img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1vh;
+}
+
+.contact p {
+    margin-right: 3vh;
+    font-family: var(--font-1);
+    font-size: 14px;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    width: 90%;
+    border: 0;
+}
+
+form.example input:focus {
+    border: none;
+    outline:none
+}
+
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border: 0;
+}
+
+form.example button:hover {
+    border: none;
+}
+  
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.flex-row a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-row h1 {
+    font-family: var(--font-1);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.flex-row a p {
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.navbar {
+    margin-top: 2vh;
+    display: flex;
+    gap: 2vh;
+}
+
+#login a {
+    display: flex;
+    align-items: center;
+}
+
+#login p {
+    font-family: var(--font-2);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.menu a {
+    padding: 10px;
+    font-family: var(--font-1);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu img, #login img {
+    width: 30px;
+    height: 30px;
+    margin: 1vh;
+}
+
+.navbar:nth-child(3) {
+    padding-right: 5vh;
+}
+
+.navbar:nth-child(3) .menu a {
+    padding: 0;
+}
+
+#fixed {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 99;
+    transition: all .5s;
+}

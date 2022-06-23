@@ -1,0 +1,107 @@
+.card-col-skills {
+    flex: 70%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color:var(--back-3);
+}
+
+.bar-full {
+    border-top-width: 5px;
+    border-top-color: gray;
+    border-top-style: solid;
+    width: 20vw;
+}
+
+.card-skills {
+    margin-top: 5vh;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    gap: 20px;
+}
+
+.card-title-skills {
+    display: flex;
+    gap: 20px;
+}
+
+.container-bar {
+    height: 4px;
+    background-color: #CCC;
+    width: 26vw;
+    position: relative;
+}
+
+.progress-bar-1 {
+    position: absolute;
+    height: 100%;
+    background-color: #e0a80d;
+    width: 70%;
+}
+
+.progress-bar-2 {
+    position: absolute;
+    height: 100%;
+    background-color: #e0a80d;
+    width: 40%;
+}
+
+.progress-bar-3 {
+    position: absolute;
+    height: 100%;
+    background-color: #e0a80d;
+    width: 80%;
+}
+
+.progress-bar-4 {
+    position: absolute;
+    height: 100%;
+    background-color: #e0a80d;
+    width: 60%;
+}
+
+.progress-bar-5 {
+    position: absolute;
+    height: 100%;
+    background-color: #e0a80d;
+    width: 75%;
+}
+
+.progress-bar-6 {
+    position: absolute;
+    height: 100%;
+    background-color: #e0a80d;
+    width: 70%;
+}
+
+.progress-bar-7 {
+    position: absolute;
+    height: 100%;
+    background-color: #e0a80d;
+    width: 70%;
+}
+
+.progress-bar-8 {
+    position: absolute;
+    height: 100%;
+    background-color: #e0a80d;
+    width: 60%;
+}
+
+
+
+/* .container-bar .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #e0a80d;
+    animation: progress-animation 5s infinite;
+   animation: progress-animation 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; } 
+    100% { width: 100%;} 
+} */

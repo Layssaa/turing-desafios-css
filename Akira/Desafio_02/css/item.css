@@ -1,0 +1,131 @@
+
+.flex-col-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row-item {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.container {
+    position: relative;
+}
+  
+.container img {
+    width: 40vh;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.desc {
+    padding: 2.5vh;   
+    text-align: center;
+}
+
+.desc p {
+    font-family: var(--font-1);
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.item-line{
+    border-top: 1px solid black;
+    width: 2vh;
+    margin: 1vh auto;
+}
+
+.visualization {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(204, 204, 204, 0.63);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.visualization p {
+    font-size: 16px;
+    font-weight: 550;
+    height: 5vh;
+    color: black;
+    padding: 1vh; 
+    text-align: center;
+}
+
+.text-1 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .visualization {
+    height: 10%;
+    opacity: 1;
+}
+
+/* .visualization {
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+    width: 100%;
+    background-color: rgba(204, 204, 204, 0.63);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 550;
+    height: 5vh;
+    color: black;
+    text-align: center;
+    padding-top: 1.5vh;
+} */
+
+.more-sale {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    text-align: center;
+    font-family: var(--font-1);
+    font-size: 14px;
+    font-weight: 550;
+    width: 30%;
+    color: white;
+    padding: 0.5vh;
+}
+

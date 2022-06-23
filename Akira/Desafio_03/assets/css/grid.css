@@ -1,0 +1,14 @@
+.grid-col {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-row {
+    display: flex;
+}
+
+.grid-row img {
+    width: 16.6vw;
+    height: 210px;
+}
