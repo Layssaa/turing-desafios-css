@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Quicksand:wght@300;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'PT Sans', sans-serif;
+    font-weight: lighter;
+    color:rgb(5, 5, 114);
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(247, 243, 243);
+    height: 10vh;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+
+.header h1{
+    width: 15vw;
+    text-align: center;    
+}
+
+
+.navbar{
+    display:flex;
+    list-style: none;
+    width: 40vw;
+    justify-content: space-evenly;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+li:hover{
+    color: gray;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top,rgb(6, 6, 61, 0.5), rgba(167, 167, 173, 0.6)),
+    url(./assets/SL-103020-37400-06.jpg);
+    /* background-image: url("./assets/SL-103020-37400-06.jpg"); */
+    background-size: cover;
+    width:100vw;
+    height: 70vh;
+    align-items: flex-end;
+}
+
+#photo{
+    background-color: rgb(238, 235, 235);
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+#photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+}
+
+#data-container{
+    background-color: white;
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#data{
+    width: 70%;
+    margin-left: 5vw;
+}
+
+#data h3{
+    font-weight:600;
+}
+#data h4{
+    font-weight: bold;
+    padding-top: 1vh;
+}
+
+#data{
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.container-media {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 229, 229);
+}   
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(6, 6, 61);
+    height: 10vh;
+    width: 50vw;
+}
+
+#hist-container{
+    padding-top: 3vh;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgb(233, 229, 229);
+}
+#history{
+    width: 35vw;
+    text-align: center;
+}
+
+.principal{
+    height: 10vh;
+    background-color: rgb(247, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience h3{
+    font-weight: bold;
+}
+
+#container{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 243, 243);
+   
+}
+
+.year{
+    width: 100%;
+    height: 34vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+ }
+
+ .year h4{
+     font-weight: bold;
+ }
+
+#date{
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#vertical{
+    width: 10vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vert{
+    width: 100%;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+         
+}
+
+.vert li{
+    position: relative;
+    left: 0.5vw;
+    z-index: 1;
+}
+
+.vert hr{
+    position: relative;
+    right: 0.5vw;
+}
+
+#exper-desc{
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.item-exper{
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 34vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: flex-start;
+}
+
+.hability{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(5, 5, 114);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+    
+
+
+
+
+.hability h3{
+    color: aliceblue;
+    font-weight: bold;
+}

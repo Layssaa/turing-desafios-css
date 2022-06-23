@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=PT+Sans:wght@400;700&family=Quicksand:wght@300;400;600;700&display=swap');
+
+@keyframes animacao{
+    0% { margin-left: 0;}
+    30% { margin-left: 0;}
+    33% { margin-left: -101%;}
+    63% { margin-left: -101%;}
+    66% { margin-left: -202%;}
+    96% { margin-left: -202%;}
+    100% { margin-left: -302%;}
+}
+   
+
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chelsea Market', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+} 
+
+#galery{
+    margin-left: 0.1vw;
+    width: 99vw;
+    height: 57vh;
+    overflow: hidden;   
+    position: relative; 
+}
+
+#carousel{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 405%;
+    animation-name: animacao;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+  
+}
+
+#carousel img{
+    width: 24.9%;
+}
+
+._3bLYT svg {
+    width: 40px;
+}
+
+#logo{
+    height: 15vh;
+    padding: 1vh;
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+}
+#logo h1{
+    font-family: 'Chelsea Market', cursive;
+    color: #8fd3e8;
+}
+
+#logo h2{
+    font-size: 1rem;
+    color: #8fd3e8;
+}
+
+#navibar{
+    background-color: rgb(247,247,247) ;
+    height: 5vh;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav{
+ 
+    background-color: rgb(247,247,247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.70rem;
+}
+
+#blue{
+    color:#8fd3e8;
+}
+
+li:hover{
+    color:#8fd3e8;
+    cursor: pointer;
+}
+
+#text-carousel h3{
+    font-size: 3rem;
+    font-family: 'Chelsea Market';
+}
+
+#text-carousel{
+    width: 20vw;
+    text-align: center;
+    position: absolute;
+    top: 15vh;
+    left: 40vw;
+    color:white;
+    font-weight: 400;
+}
+
+#text-carousel p{
+    font-size: 0.85rem;
+    padding-top: 2vh;
+}
+
+#about-part1{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+
+#about-part1 h3{
+    color:#8fd3e8;
+    font-family: 'Chelsea Market' ;
+    font-size: 2rem;
+    padding: 2vh;
+    
+}
+
+._3bLYT {
+    width: 40px;
+    height: 40px;
+
+}
+
+#about-part2{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+}
+
+.about-2-elements{
+    width: 13vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    gap: 1vh;
+  
+}
+
+.about-2-elements p{
+    text-align: center;
+}
+
+.about-2-elements h3{
+    font-family: 'Chelsea Market';
+    color:#8fd3e8;
+}
+
+button{
+    width: 7vw;
+    background-color: #8fd3e8;
+    font-size: 0.60rem;
+    padding: 8px;
+    border: none;
+    color:white;
+}
+
+button:hover{
+background-color: #76b4c7;
+}
+
+#photos-line{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 25vh;
+}
+
+.animal-photos{
+    width: 16.48%;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s;
+  }
+
+.animal-photos:hover{ 
+    opacity: 0.2;
+}
+
+
+#animal-1{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_8d9f54c9de204bbabc47ab23e795a727.jpeg/v1/fill/w_313,h_234,al_c,q_80,usm_0.66_1.00_0.01/3b1f25_8d9f54c9de204bbabc47ab23e795a727.jpeg');
+   
+}
+
+#animal-2{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_2d6313f7f32541f28896137159faa4f8.jpg/v1/fill/w_313,h_234,al_c,q_80,usm_0.66_1.00_0.01/3b1f25_2d6313f7f32541f28896137159faa4f8.jpg');
+
+}
+#animal-3{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_c01b61c5f7de4395b2277bb9d6008d7c.jpg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_c01b61c5f7de4395b2277bb9d6008d7c.jpg');
+
+}
+#animal-4{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_7654c70aac92434baaeacadbe80d1c95.jpg/v1/fill/w_847,h_565,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_7654c70aac92434baaeacadbe80d1c95.jpg');
+
+}
+#animal-5{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_ccb3098ae0ec451084f7ef0c9b824fe2.jpg/v1/fill/w_851,h_565,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_ccb3098ae0ec451084f7ef0c9b824fe2.jpg');
+
+}
+#animal-6{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_603086b43e1243938a7c6acda7b090de.jpg/v1/fill/w_754,h_565,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_603086b43e1243938a7c6acda7b090de.jpg');
+
+}
+#animal-7{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_b3429d4509e04253aba2e2212f65d39d.jpeg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_b3429d4509e04253aba2e2212f65d39d.jpeg');
+
+}
+
+#animal-8{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_1a450a645ffc4e8b95b92b2eac777ddb.jpg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_1a450a645ffc4e8b95b92b2eac777ddb.jpg');
+
+}
+#animal-9{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_6eaecd35433242f5b7cf10c60838b2d8.jpeg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_6eaecd35433242f5b7cf10c60838b2d8.jpeg');
+
+}
+#animal-10{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_5af835fc3ab34c5d9452b60ae311febc.jpg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_5af835fc3ab34c5d9452b60ae311febc.jpg');
+
+}
+#animal-11{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_fdebbf7dfbf14ccea1c2a3e730bb3e4a.jpeg/v1/fill/w_1006,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_fdebbf7dfbf14ccea1c2a3e730bb3e4a.jpeg');
+
+}
+#animal-12{
+    background-image: url('https://static.wixstatic.com/media/3b1f25_53eb85a5849b45d4aee70135360bc3b3.jpeg/v1/fill/w_848,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3b1f25_53eb85a5849b45d4aee70135360bc3b3.jpeg');
+
+}
+
+footer{
+    margin-top: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    color:white;
+    background-color: rgb(143,211,232);
+    height: 15vh;
+}
+
+#footer-media{
+       width: 20vw;
+    
+}
+
+#contact{
+    text-align: right;
+}
+
+
+
+#social-media{
+    width: 2vw;
+    position: fixed;
+    right: 1vw;
+    top: 3vh;
+    z-index: 2;
+}
+
+#chat{
+    padding: 10px;
+    border: solid 1px;
+    border-color: rgb(212, 211, 211);
+    font-weight: bold;
+    font-size: 0.9rem;
+    width: 12vw;
+    border-radius: 7px;
+    background-color: #b4dce9;
+    color: rgb(126, 125, 125);
+    position: fixed;
+    right: 1vw;
+    bottom: 1.5vh;
+    z-index: 2;
+
+}

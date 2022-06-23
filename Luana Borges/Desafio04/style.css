@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#paralax{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(./assets/img/banner-brigadeiro.webp);
+   
+}
+
+header{
+    position: fixed;
+}
+
+#navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    background-color: rgb(54,46,38);
+    color:white;
+    height: 5vh;
+    width: 100vw;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.75rem;
+    
+    z-index: 2;
+ }
+
+#navbar li:hover{
+    color: rgb(218,210,202);
+    cursor: pointer;
+}
+
+
+#banner{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1{
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    font-size: 9rem;
+    color: white;
+}
+
+#banner h2{
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    letter-spacing: 7px;
+    font-weight: 400;
+}
+
+#about{
+    z-index: 1;
+    background-image: url(./assets/img/bg-rosa.png);
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.4;
+}
+
+#about-center{
+    width: 45vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+    /* word-wrap: break-word;
+    overflow-wrap: break-word; */
+
+}
+#about-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+}
+
+#about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    font-size: 0.80rem;
+}
+
+#flavors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+#flavors-center{
+    font-family: 'Nunito', sans-serif;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 50vh;
+    color:black;
+  
+}
+
+#flavors-title{
+    font-family: 'Nunito', sans-serif;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#flavors-title p{
+    font-size: 0.90rem;
+    padding-bottom: 3vh;
+}
+
+#candy{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#candy-1{
+    background-image: url(./assets/img/candy-1.webp);
+    width: 150px;
+    height: 150px;
+}
+
+#candy-2{
+    background-image: url(./assets/img/candy-2.webp);
+    width: 150px;
+    height: 150px;
+}
+
+#candy-3{
+    background-image: url(./assets/img/candy-3.webp);
+    width: 150px;
+    height: 150px;
+}
+
+._3bLYT{
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+._3bLYG{
+    stroke: #e78585;
+    stroke-width: 2px;
+}
+
+#who-does{
+    height: 50vh;
+    background-image: url(./assets/img/bg-azul.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+#photo-who{
+    width: 20vw;
+    height: 20vw;
+    background-image: url(./assets/img/photo-who.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#who-center{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40vw;
+gap: 4vw;
+}
+
+
+#who-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
+#who-text{
+    font-size: 0.90rem;
+}
+
+#galery{
+    height: 40vh;
+    display: flex;
+}
+
+.galery-format{
+    width: 25vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:opacity(0.70);
+}
+
+#galery-1{
+    background-image: url(./assets/img/galery-1.jpg);
+    
+}
+
+#galery-2{
+    background-image: url(./assets/img/galery-2.jpg);
+    
+}
+
+#galery-3{
+    background-image: url(./assets/img/galery-3.jpg);
+}    
+
+#galery-4{
+    background-image: url(./assets/img/galery-4.jpg);
+    
+}
+
+
+#contact{
+    height: 30vh;
+    background-color: rgb(54,46,38);
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-center{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+
+#contact-us{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-us p{
+    font-size: 0.75rem;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input[type=text], [type=email], textarea {
+    background-color: rgb(107,91,76);
+    color: rgb(218,210,202);
+    padding: 4px;
+    border: none;
+  
+  }
+
+  textarea {
+    height: 10vh;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+  }
+
+input[type=text]:hover, [type=email]:hover, textarea:hover{
+    border: 0.5px solid white;
+  
+}
+
+input[type=submit]:hover{
+    opacity: 0.9;
+}
+
+input[type=text]::placeholder, [type=email]::placeholder, textarea::placeholder {
+    color: rgb(218,210,202);
+    padding-left: 1vw;
+}
+
+input[type=submit] {
+    width: 4vw;
+    background-color: #514539;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+hr{
+    height: 0.5px;
+    border: none;
+    background-color:rgb(107,91,76);
+}
+
+footer{
+    
+    height: 10vh;
+    background-color: rgb(54,46,38);
+    color: rgb(107,91,76);
+    font-family: 'Nunito', sans-serif;
+   text-align: center;
+    font-size: 0.75rem;
+
+}
+
+
+
+
